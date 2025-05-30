@@ -25,7 +25,7 @@ Alternatively, you can also access the list by clicking on the `Vaults` tab in t
 * As an admin of the Hub instance, you can see all vaults, but you can only access those that you have been granted access to.
 :::
 
-## Create a Vault
+## Create a Vault {#create-vault}
 
 :::note
 Creating vaults require the `create-vault` role. [Here](user-group-management#roles) you can read more about roles.
@@ -80,7 +80,7 @@ Open the [vault details](#vault-details) page to manage a vault.
 * `Show Recovery Key` button
 * `Archive Vault` button
 
-### Share a vault
+### Share a vault {#add-user}
 
 If a user should have access to this vault, you need to share it with the user.
 Click in the search field of the `Shared with` section, select it from the results list and click the `Add` button.
@@ -89,9 +89,9 @@ Click in the search field of the `Shared with` section, select it from the resul
 
 ### Change Ownership
 
-To change user's ownership of a vault, click on the three dots next to the user's details in the [Share a vault](#share-a-vault) section of the [vault details](#vault-details).
+To change user's ownership of a vault, click on the three dots next to the user's details in the [Share a vault](#add-user) section of the [vault details](#vault-details).
 
-### Update Permissions
+### Update Permissions {#updating-permission}
 
 If members of the vault have finished the [first login](your-account#setup) or reset user accounts, a vault owner must explicitly grant access to these users.
 Only then, the user can unlock the vault with its device.
@@ -122,7 +122,7 @@ To archive the vault, click on the `Archive Vault` button in the [vault details]
 
 You can unarchive it by clicking on the `Owned by me` tab in the navigation bar, select the vault and clicking on the `Reactive Vault` button.
 
-## Web of Trust
+## Web of Trust {#wot}
 
 Cryptomator Hub uses a Web of Trust (WoT) to verify the identity of users during vault sharing.
 

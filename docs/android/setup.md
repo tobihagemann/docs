@@ -20,7 +20,7 @@ The variants only differ in terms of the [supported Cloud Services](../../misc/s
 If you have access to the *Google Play Store* on your device, **we recommend using the [Google Play Store variant](#google-play-store) of Cryptomator.**
 Otherwise, please keep reading.
 
-## Differences between variants and how to choose
+## Differences between variants and how to choose {#variant-differences}
 
 While all variants of the Cryptomator for Android app have the same key functionality, you should make sure to pick
 the perfect variant for you:
@@ -29,7 +29,7 @@ Most users will want to use the [Google Play Store](#google-play-store) or the [
 [supported Cloud Services](../../misc/supported-cloud-services) and allow for maximum flexibility. While the *Google Play Store variant* can be purchased and downloaded via its
 *Google Play Store* page, the *APK Store variant* and the accompanying license must be obtained via our website.
 
-The [Cryptomator F-Droid repo variant](#cryptomator-f-droid-repository) and [Main F-Droid repo variant](#main-f-droid-repository) both **don't** support Google Drive as Cloud Service because
+The [Cryptomator F-Droid repo variant](#f-droid-repository) and [Main F-Droid repo variant](#f-droid-main-repository) both **don't** support Google Drive as Cloud Service because
 Google Drive requires proprietary dependencies which doesn’t fit the spirit of F-Droid.
 Additionally the *Main F-Droid repo variant* **doesn’t** support **any** Cloud Services that require an API key.
 Both can be downloaded from their corresponding F-Droid repository and require a license which can be obtained via
@@ -68,7 +68,7 @@ This variant does include an automatic updater that periodically checks if there
 
 As this variant is not bought using the *Google Play Store* you need to buy a license key from the [APK Store](https://cryptomator.org/android/) on our website. After Cryptomator is installed, you have to enter this key. This can be done by copying and pasting the license into the field when asked for it or by clicking on the link starting with `cryptomator://license/YOUR_LICENSE_KEY`.
 
-## Cryptomator F-Droid repository
+## Cryptomator F-Droid repository {#f-droid-repository}
 
 > You can buy a license for the *Cryptomator F-Droid repository variant* of Cryptomator here:
 > [APK Store](https://cryptomator.org/android/)
@@ -81,7 +81,7 @@ As this variant is not bought using the *Google Play Store* you need to buy a li
 
 As with the *APK Store variant,* since this app variant is not purchased via the *Google Play Store,* you need to buy a license key from the [APK Store](https://cryptomator.org/android/) on our website. After Cryptomator is installed, you have to enter this key. This can be done by copying and pasting the license into the field when asked for it or by clicking on the link starting with `cryptomator://license/YOUR_LICENSE_KEY`.
 
-## Main F-Droid repository
+## Main F-Droid repository {#f-droid-main-repository}
 
 > You can buy a license for the *Main F-Droid repository variant* of Cryptomator here:
 > [APK Store](https://cryptomator.org/android/)
@@ -89,7 +89,7 @@ As with the *APK Store variant,* since this app variant is not purchased via the
 > You can download the *Main F-Droid repository variant* of Cryptomator here:
 > [Main F-Droid repository](https://f-droid.org/en/packages/org.cryptomator.lite)
 
-The *Main F-Droid repository variant* can be installed directly from the [Main F-Droid repository](https://f-droid.org/en/packages/org.cryptomator.lite). Regarding the license key, the same applies as with the [Cryptomator F-Droid repository variant](#cryptomator-f-droid-repository).
+The *Main F-Droid repository variant* can be installed directly from the [Main F-Droid repository](https://f-droid.org/en/packages/org.cryptomator.lite). Regarding the license key, the same applies as with the [Cryptomator F-Droid repository variant](#f-droid-repository).
 
 Unlike all other variants of Cryptomator for Android, this variant has its own package name: `org.cryptomator.lite`. It means that you cannot, intentionally or unintentionally, simply switch between this and the other variants. It requires to setup the app again. The reason we decided to do this is that other Cryptomator variants already exist in some popular F-Droid repositories, and if we hadn’t decided to do this, there could have been an unwanted variant switch.
 

@@ -12,7 +12,7 @@ Cryptomator Hub facilitates asymmetric encryption to allow sharing the key mater
 
 Cryptomator Hub facilitates different keys types. Here is an overview of these types and how they are interconnected:
 
-#### User Key Pair
+#### User Key Pair {#keys-user-keys}
 
 During first login, every user will generate a new EC key pair. The private key is then encrypted using both the Account Key
 as well as the Device Key of every single device owned by this user.

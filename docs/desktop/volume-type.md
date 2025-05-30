@@ -34,7 +34,7 @@ FUSE volume type also delivers good performance when working on files.
 All FUSE related volume types support custom mount options, but every option must be prefixed with `-o`.
 For example, you must enter `-oallow_other` if you want to specify `allow_other` option.
 
-## Choosing a Volume Type
+## Choosing a Volume Type {#general-volume-type-selection}
 
 Cryptomator uses the same volume type for all vaults.
 You can select which volume type to use in the preferences.
