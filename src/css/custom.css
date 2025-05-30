@@ -17,6 +17,23 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  
+  /* Font family overrides */
+  --ifm-font-family-base: 'Open Sans', sans-serif;
+  --ifm-heading-font-family: 'Quicksand', sans-serif;
+}
+
+/* Custom heading font weights for Quicksand */
+h1 {
+  font-weight: 500; /* Use Quicksand medium */
+}
+
+h2 {
+  font-weight: 500; /* Use Quicksand medium */
+}
+
+h3, h4, h5, h6 {
+  font-weight: 400; /* Use Quicksand regular */
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
