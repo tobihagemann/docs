@@ -22,7 +22,7 @@ Only share your vaults with people you trust.
 If you share a vault with others, do not communicate the vault password on an insecure channel.
 Tell the password in person, use encrypted email or messengers or other similar secure means.
 
-## Good Passwords
+## Good Passwords {#good-passwords}
 
 Bad passwords can be cracked easily when using computers.
 Plenty of recommendations exist for secure passwords.

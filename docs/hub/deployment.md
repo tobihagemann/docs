@@ -21,7 +21,7 @@ Cryptomator Hub is also offered as a hosted solution, including 99.5%-uptime gua
 1. Customize the template if needed (e.g., adjust the Ingress settings) and deploy the software stack to your cluster
 
 Afterwards you're done.
-You can now login to Cryptomator Hub and start [creating vaults](hub/vault-management) or [add users](hub/user-group-management).
+You can now login to Cryptomator Hub and start [creating vaults](./vault-management) or [add users](./user-group-management).
 
 ## Hardware Requirements
 

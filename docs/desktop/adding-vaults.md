@@ -59,7 +59,7 @@ One of the primary expert settings allows you to configure the maximum length of
 - **Default Behavior**: Cryptomator automatically shortens file names to comply with filesystem constraints.
 - **Custom Configuration**: If specific requirements must be met, you can manually set the maximum allowed length for encrypted file names.
 
-Refer to [Name Shortening](../../security/vault.md#name-shortening) for additional details. 
+Refer to [Name Shortening](../../security/vault#name-shortening) for additional details. 
 
 ![Expert settings](../../static/img/desktop/add-vault-3.png)
 
@@ -69,7 +69,7 @@ Adjusting the maximum length of encrypted file names may affect compatibility wi
 
 ### 4. Choose a Password
 
-Now it is time to choose a [strong password](../../security/best-practices.md#good-passwords) for your vault.
+Now it is time to choose a [strong password](../../security/best-practices#good-passwords) for your vault.
 Cryptomator requires at least 8 characters, but we recommend you to use longer phrases such as pass-sentences.
 The bar below the password field will help you estimate the strength of your password.
 

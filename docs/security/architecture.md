@@ -60,7 +60,7 @@ When opening a vault, the following steps have to be followed:
 3. Verify the JWT signature using the masterkey.
 4. Make sure `format` and `cipherCombo` are supported.
 
-## Masterkey
+## Masterkey {#masterkey}
 
 Each vault has its own 256 bit encryption as well as MAC masterkey used for encryption of file specific keys and file authentication, respectively.
 

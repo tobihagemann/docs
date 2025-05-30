@@ -31,7 +31,7 @@ Choose between *Dropbox*, *Google Drive*, *OneDrive* (works also with *OneDrive 
 
 ![How to create a new vault with Android](../../static/img/android/create-new-vault-2-select-provider.png)
 
-If not already done, you have to create the connection between the Cryptomator app and your storage provider account. Please follow the instructions in the [Cloud Management](../cloud-management) chapter and continue later here.
+If not already done, you have to create the connection between the Cryptomator app and your storage provider account. Please follow the instructions in the [Cloud Management](./cloud-management) chapter and continue later here.
 
 Now that you've established a connection, you'll add the existing vault.
 
@@ -80,7 +80,7 @@ Choose between *Dropbox*, *Google Drive*, *OneDrive* (works also with *OneDrive 
 
 ![How add a vault with Android](../../static/img/android/add-existing-vault-2-select-provider.png)
 
-If not already done, you have to create the connection between the Cryptomator app and your storage provider account. Please follow the instructions in the [Cloud Management](../cloud-management) chapter and continue later here.
+If not already done, you have to create the connection between the Cryptomator app and your storage provider account. Please follow the instructions in the [Cloud Management](./cloud-management) chapter and continue later here.
 
 Now that you've established a connection, you'll add the existing vault.
 
