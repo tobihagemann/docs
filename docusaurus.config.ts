@@ -47,6 +47,56 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            from: '/hub/setup/requirements',
+            to: '/hub/deployment#hardware-requirements',
+          },
+          {
+            from: '/hub/setup/billing',
+            to: '/hub/admin#license',
+          },
+          {
+            from: '/hub/setup/keycloak-administration',
+            to: '/hub/user-group-management',
+          },
+          {
+            from: '/hub/setup',
+            to: '/hub/deployment',
+          },
+          {
+            from: '/hub/access-vault/unlocking-a-vault/4.-vault-unlocked',
+            to: '/hub/access-vault#vault-unlocked',
+          },
+          {
+            from: '/hub/access-vault/unlocking-a-vault/3.-add-device',
+            to: '/hub/access-vault#register-device',
+          },
+          {
+            from: '/hub/access-vault/unlocking-a-vault/2.-authenticate',
+            to: '/hub/access-vault#authenticate',
+          },
+          {
+            from: '/hub/access-vault/unlocking-a-vault/1.-click-unlock',
+            to: '/hub/access-vault#click-unlock',
+          },
+          {
+            from: '/hub/license',
+            to: '/hub/admin#license',
+          },
+          {
+            from: '/desktop/vault-mounting',
+            to: '/desktop/volume-type',
+          },
+        ],
+      },
+    ],
+  ],
+
   themeConfig: {
     image: 'img/og-image.png',
     navbar: {
