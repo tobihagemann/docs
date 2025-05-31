@@ -1,7 +1,6 @@
 import Link from '@docusaurus/Link';
 import Heading from '@theme/Heading';
 import type { ReactNode } from 'react';
-import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
@@ -64,7 +63,7 @@ const FeatureList: FeatureItem[] = [
 
 function Feature({title, description, link}: FeatureItem) {
   return (
-    <div className="card" style={{display: 'flex', height: '100%'}}>
+    <div className="card" style={{height: '100%'}}>
       <div className="card__header">
         <Heading as="h3">
           <Link to={link} className="text--no-decoration">
@@ -88,26 +87,24 @@ function Feature({title, description, link}: FeatureItem) {
 
 export default function HomepageFeatures(): ReactNode {
   return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row margin-bottom--lg">
-          <div className="col col--4">
-            <Feature {...FeatureList[0]} />
-          </div>
-          <div className="col col--4">
-            <Feature {...FeatureList[1]} />
-          </div>
-          <div className="col col--4">
-            <Feature {...FeatureList[2]} />
-          </div>
+    <section className="container padding-vert--lg">
+      <div className="row">
+        <div className="col col--4 margin-bottom--lg">
+          <Feature {...FeatureList[0]} />
         </div>
-        <div className="row margin-bottom--lg">
-          <div className="col col--6">
-            <Feature {...FeatureList[3]} />
-          </div>
-          <div className="col col--6">
-            <Feature {...FeatureList[4]} />
-          </div>
+        <div className="col col--4 margin-bottom--lg">
+          <Feature {...FeatureList[1]} />
+        </div>
+        <div className="col col--4 margin-bottom--lg">
+          <Feature {...FeatureList[2]} />
+        </div>
+      </div>
+      <div className="row">
+        <div className="col col--6 margin-bottom--lg">
+          <Feature {...FeatureList[3]} />
+        </div>
+        <div className="col col--6 margin-bottom--lg">
+          <Feature {...FeatureList[4]} />
         </div>
       </div>
     </section>
