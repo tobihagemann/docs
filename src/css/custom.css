@@ -23,6 +23,11 @@
   --ifm-heading-font-family: 'Quicksand', sans-serif;
 }
 
+/* Light mode only background color */
+[data-theme='light'] {
+  --ifm-background-color: #f7fafc;
+}
+
 /* Custom heading font weights for Quicksand */
 h1 {
   font-weight: 500; /* Use Quicksand medium */
