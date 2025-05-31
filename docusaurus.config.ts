@@ -6,7 +6,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 const config: Config = {
   title: 'Cryptomator Documentation',
-  tagline: 'Put a Lock on Your Cloud',
+  tagline: 'Protect your privacy in any cloud',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
