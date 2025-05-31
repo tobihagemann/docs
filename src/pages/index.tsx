@@ -8,11 +8,18 @@ import type { ReactNode } from 'react';
 
 import styles from './index.module.css';
 
+const Logo = require('@site/static/img/logo.svg').default;
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary text--center', styles.heroBanner)}>
-      <div className="container padding-vert--lg">
+      <div className="container">
+        <Logo 
+          className={styles.heroLogo}
+          role="img"
+          aria-label="Cryptomator Logo"
+        />
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
