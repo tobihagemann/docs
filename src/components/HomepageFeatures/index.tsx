@@ -100,10 +100,10 @@ export default function HomepageFeatures(): ReactNode {
         </div>
       </div>
       <div className="row">
-        <div className="col col--6 margin-bottom--lg">
+        <div className="col col--4 col--offset-2 margin-bottom--lg">
           <Feature {...FeatureList[3]} />
         </div>
-        <div className="col col--6 margin-bottom--lg">
+        <div className="col col--4 margin-bottom--lg">
           <Feature {...FeatureList[4]} />
         </div>
       </div>
