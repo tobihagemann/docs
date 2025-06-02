@@ -30,7 +30,7 @@ We maintain archives of all Cryptomator versions along with detailed changelogs 
 On macOS, Cryptomator will use WebDAV volume type by default if no FUSE driver is installed on the system. But we recommend installing *macFUSE* or *FUSE-T* for a smoother file browsing experience.
 Install *macFUSE* if your Mac comes with an Intel CPU or install *FUSE-T* if your Mac comes with an Apple Silicon CPU.
 
-:::tip
+:::note
 Change your [Gatekeeper settings](https://support.apple.com/HT202491) if macOS blocks Cryptomator's installation.
 :::
 

@@ -37,7 +37,7 @@ Both can be downloaded from their corresponding F-Droid repository and require a
 The *APK Store*, *F-Droid variants* and *Accrescent* of Cryptomator were created to serve users who do not have the *Google Play Store* installed
 on their Android device or do not want their purchases to go through Google.
 
-:::note
+:::tip
 If you have access to the *Google Play Store* on your device, **we recommend using the [Google Play Store variant](#google-play-store) of Cryptomator**
 for the best user experience and maximum flexibility.
 :::

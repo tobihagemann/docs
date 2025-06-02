@@ -73,7 +73,7 @@ Now it is time to choose a [strong password](/docs/security/best-practices.md#go
 Cryptomator requires at least 8 characters, but we recommend you to use longer phrases such as pass-sentences.
 The bar below the password field will help you estimate the strength of your password.
 
-:::note
+:::tip
 Always choose a password that's unique across your vaults and accounts.
 This is especially important if you plan to share a vault with someone.
 Additionally, we recommend sharing passwords only over a secure channel, like PGP encypted emails, or end-to-end encrypted chat apps.

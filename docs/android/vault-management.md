@@ -139,7 +139,7 @@ Start the process using the `CHANGE PASSWORD` button.
 
 ![How to change a vault password with Android](/img/android/change-password-vault-4-finish.png)
 
-:::note
+:::info
 The password is used to derive a [KEK](https://en.wikipedia.org/wiki/Glossary_of_cryptographic_keys), which is then used to encrypt futher keys.
 The KEK changes, but the keys encrypted with the KEK will stay the same.
 The actual files will not get re-encrypted, meaning you can not upgrade a weak passphrase to a stronger one once the data has been synced to a service that allows recovery of older versions of the masterkey file.

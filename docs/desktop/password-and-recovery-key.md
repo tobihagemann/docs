@@ -44,7 +44,7 @@ The `Change` button is activated only if the new password fields match and the c
 
 ![After entering your current password, enter your new one and confirm it](/img/desktop/change-password-prompt.png)
 
-:::note
+:::info
 The password is used to derive a [KEK](https://en.wikipedia.org/wiki/Glossary_of_cryptographic_keys), which is then used to encrypt further keys. The KEK changes, but the keys encrypted with the KEK will stay the same. The actual files will not get re-encrypted, meaning you can not upgrade a weak passphrase to a stronger one once the data has been synced to a service that allows recovery of older versions of the masterkey file.
 
 If you like to encrypt your vault files with a new, stronger password, you need to create a new vault and drag the data from the old to the new one. Make sure to wipe all backups of the old vault afterwards.
@@ -91,7 +91,7 @@ If the recovery key is valid, a small message will be displayed below the entere
 
 ![A valid recovery key has been entered](/img/desktop/recoverykey-recover-valid.png)
 
-:::warning
+:::info
 By design, *only* the correct recovery key is accepted. **A valid but incorrect key won't be accepted to prevent your old data from becoming inaccessible.**
 :::
 

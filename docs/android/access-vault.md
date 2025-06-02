@@ -146,7 +146,7 @@ Choose the target app in which you will use the file or folder.
 
 ![How to share a file or folder with Android](/img/android/share-file-2-select-app.png)
 
-:::note
+:::tip
 By sharing a file or folder from Cryptomator with Cryptomator, you can copy content from one vault to another one.
 :::
 
