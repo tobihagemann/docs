@@ -140,14 +140,3 @@ If you also back up the deployment script, you can restore the entire solution t
 :::note
 Make sure this backup is moved to another secure location.
 :::
-
-The command will create a file on the host with a name like "2023-02-06-hub-backup".
-
-Besides `pg_dumpall` Postgres offers with `psql -f PATH_TO_FILE` a command to restore the database from this file and a new system is completely at the state of this file.
-
-If you also back up the deployment script, you can restore the entire solution to production in minutes.
-
-:::note
-Make sure this backup is moved to another secure location.
-
-:::
