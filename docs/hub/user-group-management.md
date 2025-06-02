@@ -11,7 +11,7 @@ In the default configuration Cryptomator Hub provides its own Keycloak instance,
 
 You can access the Keycloak management interface over the admin section of Hub.
 
-![Accessing Keycloak via Hub](../../static/img/hub/access-keycloak-link.png)
+![Accessing Keycloak via Hub](/img/hub/access-keycloak-link.png)
 
 There you can perform all users or groups related tasks, such as
 [creating new users](https://www.keycloak.org/docs/latest/server_admin/index.html#proc-creating-user_server_administration_guide),
@@ -22,7 +22,7 @@ There you can perform all users or groups related tasks, such as
 Subgroups are not supported at this time.
 :::
 
-## Connect external IAM {#external-id-providers}
+## Connect external IAM {#connect-external-iam}
 
 Alternatively to the in-house administration, you can also connect Keycloak to other identity and access management solutions (IAM) to keep your user management centralized.
 You can either only synchronize existing users and groups from your IAM (using LDAP or Active Directory) or completely delegate the authentication process to your IAM via OpenID Connect or SAML.
@@ -50,7 +50,7 @@ There are four different roles in Cryptomator Hub:
 
 The `user`, `admin`, and `create-vault` roles are assigned to users or groups via the Keycloak admin console by an existing user with the `admin` role.
 
-### Create Vault Role
+### Create Vault Role {#create-vault-role}
 
 By default, this role is only assigned to the `admin` role. This means that only users with the `admin` role can create vaults. If you want to allow other users to create vaults, you can assign the `create-vault` role to them directly or via a group.
 

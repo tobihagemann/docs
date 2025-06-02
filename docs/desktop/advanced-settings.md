@@ -34,7 +34,7 @@ If it exists, the usage of a user's *per-user advanced configuration* can not cu
 
 For a more technical explanation of the structure and location of the advanced configuration, please see the [upstream specification](https://bugs.openjdk.org/browse/JDK-8287060).
 
-## Locating the *system-wide advanced configuration*
+## Locating the *system-wide advanced configuration* {#locating-the-system-wide-advanced-configuration}
 
 :::note
 Editing the *system-wide advanced configuration* may require elevated privileges (i.e. admin or root permissions).
@@ -53,7 +53,7 @@ The location may differ depending on Cryptomator's installation location:
 *   macOS: Might be located in the "User Application Folder": `~/Applications/...`
 *   Linux: Alternatively use the command: `open $(dirname $(dirname $(readlink -f $(which cryptomator))))/lib/app/`
 
-## Locating the *per-user advanced configuration*
+## Locating the *per-user advanced configuration* {#locating-the-per-user-advanced-configuration}
 
 The following table lays out instructions to access the *per-user advanced configuration* for your Operating System.  
 You may need to create the file or its containing folder. If at least one *per-user advanced configuration* exists, it
@@ -69,7 +69,7 @@ takes precedence over the *system-wide advanced configuration* for that user:
 *   Windows: If both exist, the path marked with (*) takes precedence.
 *   Linux: If both exist, the path marked with (*) takes precedence.
 
-## Editing the advanced configuration
+## Editing the advanced configuration {#editing-the-advanced-configuration}
 
 To replace a property, change the value after the equals sign in the corresponding entry in the `[JavaOptions]` section.
 
@@ -90,7 +90,7 @@ To add a property, add a line in the `[JavaOptions]` section of the form `java-o
 java-options=-Duser.language=hu
 ```
 
-## Properties
+## Properties {#properties}
 
 | Argument Name                                       | Description                                                                                                                               | OS    |
 | :-------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------- | :---- |
@@ -113,7 +113,7 @@ java-options=-Duser.language=hu
 | `user.language=[Language]`                          | The language to use for the application interface.                                                                                        | All   |
 | `user.region=[Region]`                              | The optional region/dialect to use for the application interface. Requires `user.language=[Language]` to be set.                          | All   |
 
-### Property Argument Types
+### Property Argument Types {#property-argument-types}
 
 Cryptomator's properties come with the following types:
 
@@ -144,7 +144,7 @@ Cryptomator's properties come with the following types:
 *   Language: See paragraph "language" [here](https://docs.oracle.com/en/java/javase/20/docs/api/java.base/java/util/Locale.html).
 *   Region: See paragraph "country (region)" [here](https://docs.oracle.com/en/java/javase/20/docs/api/java.base/java/util/Locale.html).
 
-## Substitutions
+## Substitutions {#substitutions}
 
 Substitutions are used to dynamically resolve the content of some properties depending on the environment Cryptomator is
 started in, e.g. by inserting the path to the user's home folder. They may **only** be used in properties that start

@@ -6,7 +6,7 @@ sidebar_position: 3
 
 # Cloud Management
 
-## Other File Provider
+## Other File Provider {#other-file-provider}
 
 This option allows you to add a vault from any supported [file provider](https://developer.apple.com/documentation/fileprovider/). Default implementations by Apple are iCloud Drive and On My iPhone/iPad. Inside the Files app, you can also add custom connections to SMB-compatible servers.
 

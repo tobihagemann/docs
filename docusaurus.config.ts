@@ -20,6 +20,7 @@ const config: Config = {
   // GitHub pages deployment config.
   organizationName: 'cryptomator',
   projectName: 'docs',
+  trailingSlash: true,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -54,11 +55,11 @@ const config: Config = {
         redirects: [
           {
             from: '/hub/setup/requirements',
-            to: '/hub/deployment#hardware-requirements',
+            to: '/hub/deployment/#hardware-requirements',
           },
           {
             from: '/hub/setup/billing',
-            to: '/hub/admin#license',
+            to: '/hub/admin/#license',
           },
           {
             from: '/hub/setup/keycloak-administration',
@@ -70,23 +71,23 @@ const config: Config = {
           },
           {
             from: '/hub/access-vault/unlocking-a-vault/4.-vault-unlocked',
-            to: '/hub/access-vault#vault-unlocked',
+            to: '/hub/access-vault/#vault-unlocked',
           },
           {
             from: '/hub/access-vault/unlocking-a-vault/3.-add-device',
-            to: '/hub/access-vault#register-device',
+            to: '/hub/access-vault/#register-device',
           },
           {
             from: '/hub/access-vault/unlocking-a-vault/2.-authenticate',
-            to: '/hub/access-vault#authenticate',
+            to: '/hub/access-vault/#authenticate',
           },
           {
             from: '/hub/access-vault/unlocking-a-vault/1.-click-unlock',
-            to: '/hub/access-vault#click-unlock',
+            to: '/hub/access-vault/#click-unlock',
           },
           {
             from: '/hub/license',
-            to: '/hub/admin#license',
+            to: '/hub/admin/#license',
           },
           {
             from: '/desktop/vault-mounting',

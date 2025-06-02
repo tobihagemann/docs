@@ -8,7 +8,7 @@ sidebar_position: 4
 
 Cryptomator for iOS is fully integrated into the Files app of iOS. In order to access your encrypted data, you have to use the Files app.
 
-## Enable Cryptomator in Files App
+## Enable Cryptomator in Files App {#enable-cryptomator-in-files-app}
 
 In order for Cryptomator to be listed in the Files app under "Locations", you may have to enable Cryptomator first. Open the Files app and then:
 
@@ -18,6 +18,6 @@ In order for Cryptomator to be listed in the Files app under "Locations", you ma
 4. Enable **Cryptomator**.
 5. Tap on **Done** in the upper right corner.
 
-![How to enable Cryptomator in Files app](../../static/img/ios/enable-cryptomator-in-files-app-01.png)
+![How to enable Cryptomator in Files app](/img/ios/enable-cryptomator-in-files-app-01.png)
 
-![How to enable Cryptomator in Files app](../../static/img/ios/enable-cryptomator-in-files-app-02.png)
+![How to enable Cryptomator in Files app](/img/ios/enable-cryptomator-in-files-app-02.png)

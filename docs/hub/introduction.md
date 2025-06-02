@@ -4,7 +4,7 @@ title: Cryptomator Hub
 sidebar_position: 1
 ---
 
-![Cryptomator Hub connects team members](../../static/img/hub/hub-intro.png)
+![Cryptomator Hub connects team members](/img/hub/hub-intro.png)
 
 # Cryptomator Hub
 
@@ -15,14 +15,14 @@ As usual, your favorite cloud service remains your free choice.
 This documentation covers various topics, depending on your role.
 If you are…
 
-## …an administrator:
+…an **administrator**:
 
-* [User & Group management](user-group-management) - how to manage users and groups.
-* [License](admin#license) - how to manage your Hub license.
-* [Deployment](deployment) - how to deploy Cryptomator Hub.
+* [User & Group management](user-group-management.md) - how to manage users and groups.
+* [License](admin.md#license) - how to manage your Hub license.
+* [Deployment](deployment.md) - how to deploy Cryptomator Hub.
 
-## …a user:
+…a **user**:
 
-* [Your Account](your-account) - how to manage your own account.
-* [Managing Vaults](vault-management) - how to manage vaults.
-* [Working with Vaults](access-vault) - how to use Hub vaults with Cryptomator apps to encrypt your data.
+* [Your Account](your-account.md) - how to manage your own account.
+* [Managing Vaults](vault-management.md) - how to manage vaults.
+* [Working with Vaults](access-vault.md) - how to use Hub vaults with Cryptomator apps to encrypt your data.

@@ -16,7 +16,7 @@ In general, all volume types Cryptomator offers can be categorized into two cate
 1. [WebDAV](#what-is-a-webdav-volume-type)
 2. [FUSE](#what-is-a-fuse-volume-type)
 
-## What is a WebDAV volume type?
+## What is a WebDAV volume type? {#what-is-a-webdav-volume-type}
 
 WebDAV is a standardized [communication protocol](https://en.wikipedia.org/wiki/WebDAV) used to perform operations on resources (files, directories/folders) between a client (you) and a server (your local computer).
 WebDAV was intended for remote access, but Cryptomator uses it to start a local-only server, which you can use to browse your decrypted files.
@@ -25,7 +25,7 @@ You can tweak WebDAV's settings for each vault by navigating to `Cryptomator Pre
 
 WebDAV has widespread support and adequate performance, but its implementation differs between operating systems.
 
-## What is a FUSE volume type?
+## What is a FUSE volume type? {#what-is-a-fuse-volume-type}
 
 Filesystem in Userspace ([FUSE](https://en.wikipedia.org/wiki/Filesystem_in_Userspace)) is a filesystem interface originally developed for Unix operating systems that let non-privileged users create their own file systems without editing kernel code.
 Which means, FUSE does not require admin privileges and has good support across all major desktop operating systems.
@@ -34,7 +34,7 @@ FUSE volume type also delivers good performance when working on files.
 All FUSE related volume types support custom mount options, but every option must be prefixed with `-o`.
 For example, you must enter `-oallow_other` if you want to specify `allow_other` option.
 
-## Choosing a Volume Type {#general-volume-type-selection}
+## Choosing a Volume Type {#choosing-a-volume-type}
 
 Cryptomator uses the same volume type for all vaults.
 You can select which volume type to use in the preferences.
@@ -46,11 +46,11 @@ The availability of volume types depends on your operating system and installed 
 You might have to restart Cryptomator when changing volume types.
 A notification will be displayed if a restart is needed.
 
-![Virtual Drive Tab in Preferences](../../static/img/desktop/preferences-virtual-drive.png)
+![Virtual Drive Tab in Preferences](/img/desktop/preferences-virtual-drive.png)
 
-## Windows
+## Windows {#windows}
 
-### WinFsp / WinFsp (Local Drive)
+### WinFsp / WinFsp (Local Drive) {#winfsp}
 
 **Requirements:** Windows, WinFsp installed
 
@@ -64,7 +64,7 @@ Info on custom mount options is available at [WinFsp repository](https://github.
 Vaults mounted to a drive letter are only accessible to the current user. If you want to access the vault as a different/elevated user, you have to use WinFsp (Local Drive) and [mount to a directory](vault-management.md#vault-options).
 :::
 
-### WebDAV (Windows Explorer)
+### WebDAV (Windows Explorer) {#webdav-windows-explorer}
 
 **Requirements:** Windows
 
@@ -75,9 +75,9 @@ Using WebDAV on Windows has the following drawbacks:
 * The size of transferred files is restricted to a maximum of 4 GB.
 * The total space and free space of the network drive are shown to be the same as the total space and free space of the C: drive, which is technically incorrect.
 
-## macOS
+## macOS {#macos}
 
-### macFUSE
+### macFUSE {#macfuse}
 
 **Requirements:** macOS, macFUSE installed
 
@@ -92,7 +92,7 @@ However, you can install the latest version from [macFUSE's release page](https:
 By default, unlocked vaults are mounted to `/Volumes`.
 Info on custom mount options is available at [macFUSE wiki](https://github.com/osxfuse/osxfuse/wiki/Mount-options).
 
-### FUSE-T (Experimental)
+### FUSE-T (Experimental) {#fuse-t}
 
 **Requirements:** macOS, FUSE-T installed
 
@@ -111,16 +111,16 @@ Info on custom mount options is available at [wiki of the FUSE-T project](https:
 FUSE-T is a new project, so support for it is currently marked as experimental. Be sure to keep FUSE-T up to date to benefit from the latest improvements.
 :::
 
-### WebDAV (AppleScript)
+### WebDAV (AppleScript) {#webdav-applescript}
 
 **Requirements:** macOS
 
 WebDAV on macOS utilizes the scripting language [AppleScript](https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html) to mount/unmount the virtual drive.
 By default, unlocked vaults are mounted to `/Volumes`.
 
-## Linux based OS
+## Linux based OS {#linux-based-os}
 
-### FUSE
+### FUSE {#fuse}
 
 **Requirements:** Linux, `fuse3` installed
 
@@ -134,7 +134,7 @@ Info on custom mount options is available at [man page for mount.fuse](https://m
 `allow_root` and `allow_other` cannot be used as [custom mount flags](vault-management.md#vault-options) without enabling (uncommenting) `user_allow_other` option in **/etc/fuse.conf** configuration file.
 :::
 
-### WebDAV (gio)
+### WebDAV (gio) {#webdav-gio}
 
 **Requirements:** Linux, `gio` installed
 
@@ -142,9 +142,9 @@ Due to the wide variety of Linux distributions, Cryptomator only supports system
 You can unlock your vault without `gio` using [WebDAV (HTTP Address)](#webdav-http-address), but support across distributions is not guaranteed.
 Also, it's up to yourself to figure out how to integrate WebDAV share with your distro.
 
-## OS Independent
+## OS Independent {#os-independent}
 
-### WebDAV (HTTP Address)
+### WebDAV (HTTP Address) {#webdav-http-address}
 
 **Requirements:** None - Works on all OS.
 

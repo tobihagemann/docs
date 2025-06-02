@@ -12,7 +12,7 @@ The risk that the cloud provider or third parties access the data stored in the 
 Only people who know the vault password are able to read the files in the vault or change the file contents undetected.
 This is true for file contents as well as for filenames.
 
-## What Cryptomator Encrypts
+## What Cryptomator Encrypts {#what-cryptomator-encrypts}
 
 To allow a working synchronization with the cloud, there are some meta information that Cryptomator does not encrypt.
 These are:
@@ -21,7 +21,7 @@ These are:
 * number of files and folders in a vault and in the folders, and
 * size of the stored files.
 
-## What Cryptomator Is Not
+## What Cryptomator Is Not {#what-cryptomator-is-not}
 
 In addition, you have to keep in mind what Cryptomator is not.
 Protection of the files on the local computer is not the focus of Cryptomator.

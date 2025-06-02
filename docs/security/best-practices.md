@@ -6,7 +6,7 @@ sidebar_position: 4
 
 # Best Practices
 
-## Sharing of Vaults
+## Sharing of Vaults {#sharing-of-vaults}
 
 When sharing your vault or working in a team, we strongly recommend using [Cryptomator Hub](https://cryptomator.org/for-teams/).
 It adds access management for your vaults and allows you to unlock vaults with your own account.
@@ -38,7 +38,7 @@ Thus, we recommend using a password manager to generate and store the passwords.
 By doing so, you only have to remember a few or a single secure password.
 Otherwise, we recommend using at least 10 characters, ideally [use sentences instead of words](https://xkcd.com/936/).
 
-## Backup Strategy
+## Backup Strategy {#backup-strategy}
 
 Cryptomator is not a backup solution.
 Its primary and only purpose is client-side encryption.

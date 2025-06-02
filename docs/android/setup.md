@@ -16,7 +16,7 @@ You can get Cryptomator for Android on:
 
 No matter which variant of the app you choose: The key functionality of Cryptomator stays the same.
 
-The variants only differ in terms of the [supported Cloud Services](../../misc/supported-cloud-services), the way they are downloaded and the way a license is acquired.
+The variants only differ in terms of the [supported Cloud Services](/docs/misc/supported-cloud-services.md), the way they are downloaded and the way a license is acquired.
 If you have access to the *Google Play Store* on your device, **we recommend using the [Google Play Store variant](#google-play-store) of Cryptomator.**
 Otherwise, please keep reading.
 
@@ -26,7 +26,7 @@ While all variants of the Cryptomator for Android app have the same key function
 the perfect variant for you:
 
 Most users will want to use the [Google Play Store](#google-play-store) or the [APK Store](#apk-store) as installation type. Both variants have access to all
-[supported Cloud Services](../../misc/supported-cloud-services) and allow for maximum flexibility. While the *Google Play Store variant* can be purchased and downloaded via its
+[supported Cloud Services](/docs/misc/supported-cloud-services.md) and allow for maximum flexibility. While the *Google Play Store variant* can be purchased and downloaded via its
 *Google Play Store* page, the *APK Store variant* and the accompanying license must be obtained via our website.
 
 The [Cryptomator F-Droid repo variant](#f-droid-repository) and [Main F-Droid repo variant](#f-droid-main-repository) both **don't** support Google Drive as Cloud Service because
@@ -42,9 +42,9 @@ If you have access to the *Google Play Store* on your device, **we recommend usi
 for the best user experience and maximum flexibility.
 :::
 
-To learn more about the supported Cloud Services, please see [Supported Cloud Services](../../misc/supported-cloud-services).
+To learn more about the supported Cloud Services, please see [Supported Cloud Services](/docs/misc/supported-cloud-services.md).
 
-## Google Play Store
+## Google Play Store {#google-play-store}
 
 > You can buy and download the *Google Play Store variant* of Cryptomator here:
 > [Google Play Store](https://play.google.com/store/apps/details?id=org.cryptomator&hl=en)
@@ -55,7 +55,7 @@ After buying the app using the *Google Play Store,* it can be used with any numb
 
 Sometimes the *Google Play Store* has problems to recognize that the app was already bought and asks you to buy again the app, see this topic to recover from this problem: [On how many devices can the app be installed using Google Play Store?](https://community.cryptomator.org/t/on-how-many-devices-can-the-app-be-installed-using-google-play-store/6129)
 
-## APK Store
+## APK Store {#apk-store}
 
 > You can buy a license for the app and download the *APK Store variant* of Cryptomator here:
 > [APK Store](https://cryptomator.org/android/)
@@ -64,7 +64,7 @@ The *APK store variant* can be installed from the [APK Store](https://cryptomato
 
 It is possible that the app in which you clicked on the APK is asking for "Install from Unknown Sources" permission, this is normal and must be activated for a short time (it is recommended to remove the permission afterwards).
 
-This variant does include an automatic updater that periodically checks if there is a newer version of this app, and if so, it can be downloaded and installed directly from within the app. Using the [Update Check Interval](./settings#update-check-interval) in the Cryptomator settings, you can specify how often the update check is executed.
+This variant does include an automatic updater that periodically checks if there is a newer version of this app, and if so, it can be downloaded and installed directly from within the app. Using the [Update Check Interval](settings.md#update-check-interval) in the Cryptomator settings, you can specify how often the update check is executed.
 
 As this variant is not bought using the *Google Play Store* you need to buy a license key from the [APK Store](https://cryptomator.org/android/) on our website. After Cryptomator is installed, you have to enter this key. This can be done by copying and pasting the license into the field when asked for it or by clicking on the link starting with `cryptomator://license/YOUR_LICENSE_KEY`.
 
@@ -77,7 +77,7 @@ As this variant is not bought using the *Google Play Store* you need to buy a li
 > repository to the F-Droid app by opening this link on the device or by scanning the following QR-Code:
 > [Cryptomator F-Droid repository](https://static.cryptomator.org/android/fdroid/repo?fingerprint=F7C3EC3B0D588D3CB52983E9EB1A7421C93D4339A286398E71D7B651E8D8ECDD)
 
-![F-Droid QR Code](../../static/img/android/fdroid-qr-code.svg)
+![F-Droid QR Code](/img/android/fdroid-qr-code.svg)
 
 As with the *APK Store variant,* since this app variant is not purchased via the *Google Play Store,* you need to buy a license key from the [APK Store](https://cryptomator.org/android/) on our website. After Cryptomator is installed, you have to enter this key. This can be done by copying and pasting the license into the field when asked for it or by clicking on the link starting with `cryptomator://license/YOUR_LICENSE_KEY`.
 
@@ -93,7 +93,7 @@ The *Main F-Droid repository variant* can be installed directly from the [Main F
 
 Unlike all other variants of Cryptomator for Android, this variant has its own package name: `org.cryptomator.lite`. It means that you cannot, intentionally or unintentionally, simply switch between this and the other variants. It requires to setup the app again. The reason we decided to do this is that other Cryptomator variants already exist in some popular F-Droid repositories, and if we hadn’t decided to do this, there could have been an unwanted variant switch.
 
-## Accrescent
+## Accrescent {#accrescent}
 
 > You can buy a license for the *Accrescent* variant of Cryptomator here:
 > [APK Store](https://cryptomator.org/android/)
@@ -103,11 +103,11 @@ Unlike all other variants of Cryptomator for Android, this variant has its own p
 
 As this variant is not bought using the *Google Play Store* you need to buy a license key from the [APK Store](https://cryptomator.org/android/) on our website. After Cryptomator is installed, you have to enter this key. This can be done by copying and pasting the license into the field when asked for it or by clicking on the link starting with `cryptomator://license/YOUR_LICENSE_KEY`.
 
-## Requirements
+## Requirements {#requirements}
 
 Requires Android 8.0 or later.
 
-## Update Rollout
+## Update Rollout {#update-rollout}
 
 The timing of the update depends on your installed variant:
 

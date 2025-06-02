@@ -11,24 +11,24 @@ The account is used to authenticate your identity and to manage your trusted dev
 
 If you don't have an account, contact your local administrator to create one for you.
 
-## Account Key
+## Account Key {#account-key}
 
 Every account has a private *Account Key*.
 The Account Key is used for authorizing browsers or apps which try to connect to Hub.
 It is not used for encrypting vault data.
 Keep your account key secret and only store it in a secure place (e.g. password manager).
-You can view your account key in your [profile](#profile) on trusted browsers.
+You can view your account key in your [profile](#profile-page) on trusted browsers.
 
 :::note
-If you lose your account key, you have two options: If you have access to an authorized browser, you can view it on the [profile page](#profile) or otherwise, you can [reset your account](#reset-account).
+If you lose your account key, you have two options: If you have access to an authorized browser, you can view it on the [profile page](#profile-page) or otherwise, you can [reset your account](#reset-account).
 :::
 
-## Account Setup {#setup}
+## Account Setup {#account-setup}
 
 The very first time you log in to Cryptomator Hub, you're asked to set up your account.
 This is a one-time process that takes just a minute.
 
-![Account setup on first login](../../static/img/hub/account-setup.png)
+![Account setup on first login](/img/hub/account-setup.png)
 
 In the setup your [Account Key](#account-key) is generated and displayed.
 We recommend to copy your Account Key to a secure place (e.g. password manager), but you can always view it later in your profile from any trusted browser.
@@ -39,16 +39,16 @@ You can revoke the trust at any time in your profile.
 After storing your account key securely, tick the checkbox and finish the setup.
 You are now logged in to Hub and can start using it.
 
-## Profile Page {#profile}
+## Profile Page {#profile-page}
 
 On the profile page, you can manage your account.
 It shows your account key and fingerprint, lists your trusted devices and more.
 
 You can open it by clicking on your profile icon in the top right corner and select *Your Profile*.
 
-![Your account in Cryptomator Hub](../../static/img/hub/profile-view.png)
+![Your account in Cryptomator Hub](/img/hub/profile-view.png)
 
-### Change Language
+### Change Language {#change-language}
 
 You can change the language of Cryptomator Hub to match your preference.  
 The language selection is available in the profile settings.
@@ -58,13 +58,13 @@ We are continuously working on adding more languages.
 If you're interested, you can contribute translations via Crowdin:  
 `Cryptomator Hub on Crowdin](https://crowdin.com/project/cryptomator).
 
-### Regenerate Account Key
+### Regenerate Account Key {#regenerate-account-key}
 
 If you suspect that your old Account Key has been compromised, you can regenerate it.
 You will then only be able to add new devices with the new Account Key.
 Your existing devices will remain trusted.
 
-### Authorized Devices
+### Authorized Devices {#authorized-devices}
 
 A device is authorized if it has been authenticated with your Account Key.
 Only on authorized devices you can log in to Hub and open vaults.
@@ -82,26 +82,26 @@ By managing your authorized devices, you ensure that only trusted ones remain ac
 If you don't trust a device anymore, you can remove it from the list of authorized devices.
 This will log out the device and revoke access to all shared vaults.
 
-### Legacy Devices
+### Legacy Devices {#legacy-devices}
 
 This section lists devices that have been authorized with an older version of Cryptomator Hub. It is only visible if you have any legacy devices.
 Legacy devices where created before the introduction of the current user key system and will be removed from your account within one of the next major updates of Hub.
 
-![Your legacy devices](../../static/img/hub/legacy-devices.png)
+![Your legacy devices](/img/hub/legacy-devices.png)
 
 If you have any legacy device
 
 1. check if you still use them, if so, update the client version on this device which migrates it to the new format
 2. if you don't use them anymore, remove them to revoke access of this device to your accessible vaults
 
-### User Key Fingerprint
+### User Key Fingerprint {#user-key-fingerprint}
 
 The fingerprint can be used to verify the identity of the user, for example when updating the permissions of a vault.
 It will only change if you reset your account.
 
-## Reset Account
+## Reset Account {#reset-account}
 If you lose your account key and can't access any trusted browser, you can reset your account when logging in from a new device.
 All already authorized devices will be removed and access to shared vaults will be revoked.
 After the reset, you can log in to Hub from a new browser and set up your account again.
 
-![Reset account on login](../../static/img/hub/trust-device.png)
+![Reset account on login](/img/hub/trust-device.png)

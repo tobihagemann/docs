@@ -12,7 +12,7 @@ If the network connection is present, it is used for optional features, i.e. upd
 The only exception is when unlocking Cryptomator Hub vaults, then a network connection to the hub server is required.
 All network connections to the internet are using HTTPS with at least TLS 1.2.
 
-## Trust Certificate Management
+## Trust Certificate Management {#trust-certificate-management}
 
 Depending on the OS, the required trusted root certificates are loaded from different locations.
 
@@ -26,7 +26,7 @@ Remarks:
 
 [1] For more information about the location and contained certificates, see [JEP 319](https://openjdk.org/jeps/319).
 
-## Proxy Server
+## Proxy Server {#proxy-server}
 
 The default proxy server differs depending on the operating system:
 

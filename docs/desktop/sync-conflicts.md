@@ -17,7 +17,7 @@ Sync conflicts can happen in cloud storages for several reasons. In such cases, 
 
 :::
 
-## Handling Sync Conflicts
+## Handling Sync Conflicts {#handling-sync-conflicts}
 
 1. When a sync conflict is detected, Cryptomator will display the conflicted file with a `(X)` suffix, where X is an increasing integer.
 2. Manually review both the original and conflicted files.
@@ -26,7 +26,7 @@ Sync conflicts can happen in cloud storages for several reasons. In such cases, 
 
 By following these steps, you can effectively manage synchronization conflicts and ensure that your data remains consistent across multiple locations.
 
-## Example
+## Example {#example}
 
 Suppose you have a file named `document.txt` in your vault. In the encrypted vault, this file might be represented with an encrypted name such as `5TyvCyF255sRtfrIv...83ucADQ==.c9r`.
 

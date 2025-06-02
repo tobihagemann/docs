@@ -8,11 +8,11 @@ sidebar_position: 5
 
 Cryptomator Hub facilitates asymmetric encryption to allow sharing the key material used in Cryptomator vaults between multiple parties. 
 
-## Key Types
+## Key Types {#key-types}
 
 Cryptomator Hub facilitates different keys types. Here is an overview of these types and how they are interconnected:
 
-#### User Key Pair {#keys-user-keys}
+#### User Key Pair {#user-key-pair}
 
 During first login, every user will generate a new EC key pair. The private key is then encrypted using both the Account Key
 as well as the Device Key of every single device owned by this user.
@@ -21,7 +21,7 @@ The purpose of the user key is to access secrets that have been shared with this
 
 If users wish to rotate their keys, e.g. when a device may be compromised, they can simply re-roll the key pair, re-encrypt secrets that they whish to keep access to and delete the old key pair.
 
-#### Device Key Pair
+#### Device Key Pair {#device-key-pair}
 
 Every device requires a key pair, which is generated on first use. The private key is securely stored on-device and not intended to ever leave it. For example,
 on web browsers the private key is [non-extractable](https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/generateKey#extractable) and stored in the browser's IndexedDB.
@@ -37,7 +37,7 @@ The sole purpose of the device key is to decrypt the User Key, which is stored i
 
 Users can invalidate devices by simply deleting the device-specific JWE and rotating their user key.
 
-#### Account Key
+#### Account Key {#account-key}
 
 When users attempt to access their account from a new device, there is no device-specific JWE yet. Instead they can then use the Account Key to decrypt
 the User Key. The Account Key acts as a password to derive a key for a [PBES2-encrypted JWE](https://datatracker.ietf.org/doc/html/rfc7518.html#section-4.8).
