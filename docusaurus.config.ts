@@ -92,6 +92,10 @@ const config: Config = {
             from: '/desktop/vault-mounting',
             to: '/desktop/volume-type',
           },
+          {
+            from: '/help/manual-migration',
+            to: '/misc/manual-migration',
+          },
         ],
       },
     ],
@@ -134,12 +138,6 @@ const config: Config = {
           label: 'Security',
           to: 'security/security-target',
           activeBasePath: 'security/',
-          position: 'left',
-        },
-        {
-          label: 'Help',
-          to: 'help/manual-migration',
-          activeBasePath: 'help/',
           position: 'left',
         },
         {

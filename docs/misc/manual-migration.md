@@ -1,7 +1,7 @@
 ---
 id: manual-migration
 title: Manual Migration
-sidebar_position: 1
+sidebar_position: 4
 ---
 
 # Manual Migration

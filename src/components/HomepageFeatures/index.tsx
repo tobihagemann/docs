@@ -15,7 +15,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         Documentation for Cryptomator on Windows, macOS, and Linux. 
-        Learn how to create vaults, manage your encrypted files, and configure advanced settings.
+        Create vaults, manage encrypted files, and configure settings.
       </>
     ),
   },
@@ -59,6 +59,16 @@ const FeatureList: FeatureItem[] = [
       </>
     ),
   },
+  {
+    title: 'Misc',
+    link: '/misc/contribute',
+    description: (
+      <>
+        Additional resources and supplementary information. 
+        Learn how to contribute to the project and find supported cloud services.
+      </>
+    ),
+  },
 ];
 
 function Feature({title, description, link}: FeatureItem) {
@@ -89,23 +99,11 @@ export default function HomepageFeatures(): ReactNode {
   return (
     <section className="container padding-vert--lg">
       <div className="row">
-        <div className="col col--4 margin-bottom--lg">
-          <Feature {...FeatureList[0]} />
-        </div>
-        <div className="col col--4 margin-bottom--lg">
-          <Feature {...FeatureList[1]} />
-        </div>
-        <div className="col col--4 margin-bottom--lg">
-          <Feature {...FeatureList[2]} />
-        </div>
-      </div>
-      <div className="row">
-        <div className="col col--4 col--offset-2 margin-bottom--lg">
-          <Feature {...FeatureList[3]} />
-        </div>
-        <div className="col col--4 margin-bottom--lg">
-          <Feature {...FeatureList[4]} />
-        </div>
+        {FeatureList.map((props, idx) => (
+          <div key={idx} className="col col--4 margin-bottom--lg">
+            <Feature {...props} />
+          </div>
+        ))}
       </div>
     </section>
   );
