@@ -46,7 +46,7 @@ Alternatively, a vault's content can be accessed via a directory or a WebDAV ser
 Click on `Reveal Drive` in the Cryptomator window to open the mount location using the default file manager (Windows Explorer, Finder, …).
 
 :::note
- Even though your files are shown unencrypted in the virtual drive, they are not stored unencrypted on the hard drive but only in [volatile memory](https://en.wikipedia.org/wiki/Volatile_memory).
+Even though your files are shown unencrypted in the virtual drive, they are not stored unencrypted on the hard drive but only in [volatile memory](https://en.wikipedia.org/wiki/Volatile_memory).
 :::
 
 ![Cryptomator window showing an unlocked vault](/img/desktop/vault-detail-unlocked.png)

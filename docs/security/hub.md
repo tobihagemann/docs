@@ -30,7 +30,6 @@ on web browsers the private key is [non-extractable](https://developer.mozilla.o
 A *device* is any client that interacts with Cryptomator Hub on behalf of a user. This definition includes the web browser used to access the Hub
 web interface as well as the mobile app on a user's smartphone. On multi-user systems, every user is expected to have a separate user account, in
 which case we're talking about multiple devices with distinct key pairs, even if they share the same hardware.
-
 :::
 
 The sole purpose of the device key is to decrypt the User Key, which is stored in a device-specific [ECDH-ES-encrypted JWE](https://datatracker.ietf.org/doc/html/rfc7518.html#section-4.6).
@@ -46,11 +45,9 @@ the User Key. The Account Key acts as a password to derive a key for a [PBES2-en
 The Account Key needs to be kept secret, as it is the only user-facing secret that allows anyone knowing it to authorize as the corresponding user.
 
 When an Account Key is suspected of being compromised, it can and should be re-generated from the user's profile page, which will immediately invalidate any circulating copies.
-
 :::
 
 :::note
 The Account Key itself is stored as an [ECDH-ES-encrypted JWE](https://datatracker.ietf.org/doc/html/rfc7518.html#section-4.6), allowing its owner to
 view it from any authorized device. Regardless it should be securely stored independently.
-
 :::

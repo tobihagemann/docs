@@ -17,7 +17,6 @@ This is only possible if the vault is locked.
 
 :::note
 The vault is **not** deleted from your PC by removing it from the list. If you wish to permanently delete your encrypted files, you need to delete the vault directory using the file manager.
-
 :::
 
 ## Reorder Vaults {#reorder-vaults}

@@ -18,7 +18,6 @@ To create a new vault, click on the plus sign ① and choose *Create new vault* 
 
 :::note
 If you already have a vault created with the desktop app and just want to add this vault to your mobile app, please select go to chapter `Add Existing Vaults`.
-
 :::
 
 You will now be prompted to select the Cloud Service where you want to store your vault.
@@ -52,7 +51,6 @@ Basically, you have the whole Unicode for choosing a password including non-prin
 :::warning
 You have to remember this password at all times because there is **no way to access your data if you forget your password**.
 Choose a [good password](/docs/security/best-practices.md#good-passwords) to make your data secure.
-
 :::
 
 After you have confirmed your password, the vault is created.
@@ -115,7 +113,6 @@ Confirm the deletion process using the `Delete` button.
 :::note
 By removing a vault, it is only removed from the list but not deleted in the cloud.
 You can re-add the vault afterwards.
-
 :::
 
 ## Change Vault Password {#change-vault-password}
@@ -134,7 +131,6 @@ Basically, you have the whole Unicode for choosing a password including non-prin
 :::warning
 You have to remember this password at all times because there is **no way to access your data if you forget your password**.
 Choose a [good password](/docs/security/best-practices.md#good-passwords) to make your data secure.
-
 :::
 
 Start the process using the `CHANGE PASSWORD` button.
@@ -147,7 +143,6 @@ Start the process using the `CHANGE PASSWORD` button.
 The password is used to derive a [KEK](https://en.wikipedia.org/wiki/Glossary_of_cryptographic_keys), which is then used to encrypt futher keys.
 The KEK changes, but the keys encrypted with the KEK will stay the same.
 The actual files will not get re-encrypted, meaning you can not upgrade a weak passphrase to a stronger one once the data has been synced to a service that allows recovery of older versions of the masterkey file.
-
 :::
 
 If you like to encrypt your vault files with a new, stronger password, you need to create a new vault and copy the data from the old to the new one. Make sure to wipe all backups of the old vault afterwards.

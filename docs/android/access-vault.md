@@ -50,7 +50,6 @@ All of the possibilities will result in the locked vault.
 
 :::note
 The auto-lock timeout specified in the settings will lock the vault if Cryptomator is in background. Furthermore if not changed in settings, the vault gets locked if the screen turns off.
-
 :::
 
 ## View and Edit File {#view-and-edit-file}
@@ -117,7 +116,6 @@ Confirm the deletion process using the `DELETE` button.
 
 :::note
 By deleting a folder, all subfolders and files inside are deleted recursively.
-
 :::
 
 ## Export File or Folder {#export-file-or-folder}
@@ -150,7 +148,6 @@ Choose the target app in which you will use the file or folder.
 
 :::note
 By sharing a file or folder from Cryptomator with Cryptomator, you can copy content from one vault to another one.
-
 :::
 
 ## Share File with Cryptomator {#share-file-with-cryptomator}

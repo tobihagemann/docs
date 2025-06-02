@@ -23,5 +23,4 @@ One reason why automatic migration is impossible might be the fact that your vau
 - eCryptfs-encrypted volumes on Linux
 
 In this case, during step 5, you may encounter warnings indicating that you can not encrypt files due to such length limitations. Feel free to simply change the name of any affected files.
-
 :::

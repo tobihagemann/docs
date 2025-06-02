@@ -48,7 +48,6 @@ The `Change` button is activated only if the new password fields match and the c
 The password is used to derive a [KEK](https://en.wikipedia.org/wiki/Glossary_of_cryptographic_keys), which is then used to encrypt further keys. The KEK changes, but the keys encrypted with the KEK will stay the same. The actual files will not get re-encrypted, meaning you can not upgrade a weak passphrase to a stronger one once the data has been synced to a service that allows recovery of older versions of the masterkey file.
 
 If you like to encrypt your vault files with a new, stronger password, you need to create a new vault and drag the data from the old to the new one. Make sure to wipe all backups of the old vault afterwards.
-
 :::
 
 ## Show Recovery Key {#show-recovery-key}
@@ -59,7 +58,6 @@ To increase security, Cryptomator does not store the recovery key on your hard d
 :::warning
 A recovery key can reset a vault's current password. 
 So, treat it like a password and ensure only trusted people have access to it.
-
 :::
 
 To derive a recovery key:
@@ -85,7 +83,6 @@ Type or paste your recovery key in the new window.
 
 :::note
 Cryptomator offers an auto completion feature to make things easier when typing a recovery key. It's helpful if your recovery key is printed on paper or stored it somewhere where you cannot copy it. The feature will kick in automatically once you start typing the first few letters of a word.
-
 :::
 
 ![Autocompletion during recovery key entry](/img/desktop/recoverykey-recover-enter.png)
@@ -96,7 +93,6 @@ If the recovery key is valid, a small message will be displayed below the entere
 
 :::warning
 By design, *only* the correct recovery key is accepted. **A valid but incorrect key won't be accepted to prevent your old data from becoming inaccessible.**
-
 :::
 
 Finally, assign a new password to your vault.
@@ -107,5 +103,4 @@ Once changed, you can unlock your vault with the new password.
 
 :::note
 Don't discard the recovery key after resetting the password as it will still remain valid.
-
 :::

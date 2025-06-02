@@ -11,25 +11,21 @@ Cryptomator allows configuring parts of the environment using *properties.* For 
 Each user can have their own advanced configuration file ("per-user advanced configuration"), which takes precedence over the advanced configuration of the system ("system-wide advanced configuration") for that user.
 
 :::warning
-
 Editing the advanced configuration is not officially supported.
 
 - Changes to the *system-wide advanced configuration* may be overwritten by updates.
 - A user's *per-user advanced configuration* may quietly become outdated after an update.
 - Properties may be changed or removed without warning.
 - Changes to the advanced configuration may break your installation or yield unexpected behavior.
-
 :::
 
 :::note
-
 A user's *per-user advanced configuration* and the *system-wide advanced configuration* are **not** merged.
 
 - The *per-user advanced configuration* needs to contain all common properties *as well as* differing ones.
 - Changes to the *system-wide advanced configuration* will not have any effect if a *per-user advanced configuration* exists for that user.
 
 If it exists, the usage of a user's *per-user advanced configuration* can not currently be disabled. Please see [this issue](https://github.com/cryptomator/cryptomator/issues/3119) for more information.
-
 :::
 
 For a more technical explanation of the structure and location of the advanced configuration, please see the [upstream specification](https://bugs.openjdk.org/browse/JDK-8287060).

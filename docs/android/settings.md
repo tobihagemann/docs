@@ -27,7 +27,6 @@ This setting lists all Cloud Services. When pressing on a service, the authentic
 
 :::note
 This setting is only available if your device supports the fingerprint authentication.
-
 :::
 
 With the toggle button in the right upper corner ①, the fingerprint will be generally enabled/disabled.

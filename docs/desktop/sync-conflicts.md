@@ -14,7 +14,6 @@ Cryptomator handles encrypted files in the same way. It detects synchronization 
 
 :::note
 Sync conflicts can happen in cloud storages for several reasons. In such cases, it is up to you to decide what to do with the conflicted files. It is recommended to manually check both files and determine which one to keep. If you conclude that both files are identical, you can delete one copy. The organization of your files is entirely in your hands.
-
 :::
 
 ## Handling Sync Conflicts {#handling-sync-conflicts}

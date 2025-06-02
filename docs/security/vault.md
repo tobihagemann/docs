@@ -148,10 +148,8 @@ Becomes a ciphertext directory structure like this:
 ## Name Shortening {#name-shortening}
 
 :::note
-
 This layer doesn't provide any additional security.
 Its sole purpose is to maximize compatibility.
-
 :::
 
 To maximize compatibility, we need to make sure the ciphertext names don't exceed a length of 255 chars.
@@ -207,11 +205,9 @@ A vault containing several nodes with very long names might result in a cipherte
 ## Backup Directory IDs {#backup-directory-ids}
 
 :::note
-
 This layer is optional and not required for a complete implementation of the Cryptomator Encryption Scheme.
 It doesn't provide any additional security.
 Its sole purpose is to increase data recoverability in case of missing or damaged directory files.
-
 :::
 
 By obfuscating the hierarchy of cleartext paths using `dir.c9r` files, which contain [directory IDs](#directory-ids), the directory structure is more vulnerable to problems like incomplete synchronization or bit rotting.
