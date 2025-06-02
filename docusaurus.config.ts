@@ -147,9 +147,10 @@ const config: Config = {
           position: 'left',
         },
         {
-          label: 'GitHub',
           href: 'https://github.com/cryptomator',
           position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub',
         },
       ],
     },
