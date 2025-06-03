@@ -4,7 +4,7 @@ title: Cryptomator Hub
 sidebar_position: 1
 ---
 
-![Cryptomator Hub connects team members](/img/hub/hub-intro.png)
+<img src="/img/hub/hub-intro.png" alt="Cryptomator Hub connects team members" width="384" />
 
 # Cryptomator Hub
 

@@ -27,17 +27,17 @@ Requirements:
 
 In Cryptomator Hub navigate to the vault list, click `Add` and `Recover Existing`
 
-![Vault list add drop down](/img/hub/vault-onlinerecovery-step1.png)
+<img src="/img/hub/vault-onlinerecovery-step1.png" alt="Vault list add drop down" width="920" />
 
 Enter the recovery key for the vault you want to restore. If you enter a recovery key from a different vault, the recovery will not work.
 
 Proceed with `Restore Vault`.
 
-![Vault enter recovery key](/img/hub/vault-onlinerecovery-step2.png)
+<img src="/img/hub/vault-onlinerecovery-step2.png" alt="Vault enter recovery key" width="920" />
 
 Enter a new vault name, description and vault admin password. The new vault admin password is required to grant or revoke access to the vault.
 
-![Creating a vault using recovery key](/img/hub/vault-onlinerecovery-step3.png)
+<img src="/img/hub/vault-onlinerecovery-step3.png" alt="Creating a vault using recovery key" width="920" />
 
 If successful, a new vault has been created. Proceed as follows:
 
@@ -69,27 +69,27 @@ Requirements:
 Open the Cryptomator desktop app,  right-click on the vault you want to restore in the vault list, click `Show vault options` in the opened context menu.
 In the opening window, select the `Recovery`, read the label description and click the `Convert to Password-Based Vault` button.
 
-![Vault recovery convert to Password-Based-Vault](/img/hub/vault-offlinerecovery-step1.png)
+<img src="/img/hub/vault-offlinerecovery-step1.png" alt="Vault recovery convert to Password-Based-Vault" width="920" />
 
 Enter the recovery key for the vault you want to restore. If you enter a recovery key from a different vault, the recovery will not work. Proceed with `Next`.
 
-![Convert vault enter recovery key](/img/hub/vault-offlinerecovery-step2.png)
+<img src="/img/hub/vault-offlinerecovery-step2.png" alt="Convert vault enter recovery key" width="920" />
 
 In the next step choose a [good password](/docs/security/best-practices.md#good-passwords) used for unlocking the vault.
 Cryptomator requires at least 8 characters but we recommend you to use a longer phrases such as pass-sentences.
 The bar below the password field estimates the strength of your password.
 
-![Convert vault enter new password](/img/hub/vault-offlinerecovery-step3.png)
+<img src="/img/hub/vault-offlinerecovery-step3.png" alt="Convert vault enter new password" width="920" />
 
 If the conversion was successful, a success message is shown.
 You can close the dialog box.
 This vault is now converted to a password-based vault.
 
-![Convert vault successful](/img/hub/vault-offlinerecovery-step4.png)
+<img src="/img/hub/vault-offlinerecovery-step4.png" alt="Convert vault successful" width="920" />
 
 After the conversion, when unlocking the vault, you are prompted for a password and only the one chosen in the previous step leads to a successful unlock.
 
-![Unlock converted Vault](/img/hub/vault-offlinerecovery-step5.png)
+<img src="/img/hub/vault-offlinerecovery-step5.png" alt="Unlock converted Vault" width="920" />
 
 ## Reversing Offline Conversion {#reversing-offline-conversion}
 

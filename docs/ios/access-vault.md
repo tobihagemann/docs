@@ -18,6 +18,6 @@ In order for Cryptomator to be listed in the Files app under "Locations", you ma
 4. Enable **Cryptomator**.
 5. Tap on **Done** in the upper right corner.
 
-![How to enable Cryptomator in Files app](/img/ios/enable-cryptomator-in-files-app-01.png)
+<img src="/img/ios/enable-cryptomator-in-files-app-01.png" alt="How to enable Cryptomator in Files app" width="346" />
 
-![How to enable Cryptomator in Files app](/img/ios/enable-cryptomator-in-files-app-02.png)
+<img src="/img/ios/enable-cryptomator-in-files-app-02.png" alt="How to enable Cryptomator in Files app" width="346" />

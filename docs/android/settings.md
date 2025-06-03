@@ -13,15 +13,15 @@ This section provides an overview of the different settings.
 
 After pressing the three dots ① and clicking on [`Settings``, you will find options to customize Cryptomator.
 
-![How to launch settings with Android](/img/android/launch-settings.png)
+<img src="/img/android/launch-settings.png" alt="How to launch settings with Android" width="346" />
 
-![How to launch settings with Android](/img/android/settings.png)
+<img src="/img/android/settings.png" alt="How to launch settings with Android" width="346" />
 
 ### Cloud Services {#cloud-services}
 
 This setting lists all Cloud Services. When pressing on a service, the authentication starts or if you're already authenticated, you will be logged out.
 
-![How to handle cloud services with Android](/img/android/setting-cloud-services.png)
+<img src="/img/android/setting-cloud-services.png" alt="How to handle cloud services with Android" width="346" />
 
 ### Fingerprint {#fingerprint}
 
@@ -32,15 +32,15 @@ This setting is only available if your device supports the fingerprint authentic
 With the toggle button in the right upper corner ①, the fingerprint will be generally enabled/disabled.
 Using the toggle button next to the vault, it will be enabled/disabled for this vault ②.
 
-![How to use fingerprint with Android](/img/android/setting-fingerprint-0-setup.png)
+<img src="/img/android/setting-fingerprint-0-setup.png" alt="How to use fingerprint with Android" width="346" />
 
-![How to use fingerprint with Android](/img/android/setting-fingerprint-1-enter-pw.png)
+<img src="/img/android/setting-fingerprint-1-enter-pw.png" alt="How to use fingerprint with Android" width="346" />
 
 After enabling, you have to unlock the vault using the password.
 
-![How to use fingerprint with Android](/img/android/setting-fingerprint-2-authenticate.png)
+<img src="/img/android/setting-fingerprint-2-authenticate.png" alt="How to use fingerprint with Android" width="346" />
 
-![How to use fingerprint with Android](/img/android/setting-fingerprint-3-finish.png)
+<img src="/img/android/setting-fingerprint-3-finish.png" alt="How to use fingerprint with Android" width="346" />
 
 To have access to the key stored in the keystore, you have to authenticate against the system using the fingerprint.
 
@@ -67,7 +67,7 @@ You can disable this for most apps (but not for system apps like the keyboard bu
 
 If you see this dialog, some app is able to draw over Cryptomator: 
 
-![How to enable obscured app with Android](/img/android/setting-app-obscured.png)
+<img src="/img/android/setting-app-obscured.png" alt="How to enable obscured app with Android" width="346" />
 
 ### Screen Security {#screen-security}
 
@@ -87,9 +87,9 @@ You can choose between the following three styles:
 * Light: App shows in light mode
 * Dark: App shows in dark mode
 
-![How to change style with Android](/img/android/settings.png)
+<img src="/img/android/settings.png" alt="How to change style with Android" width="346" />
 
-![How to change style with Android](/img/android/setting-style-dark.png)
+<img src="/img/android/setting-style-dark.png" alt="How to change style with Android" width="346" />
 
 ## Search {#search}
 
@@ -106,7 +106,7 @@ both are described in the following chapters.
 If this setting is enabled, the search mode is `live`.
 That means, the search starts immediately after entering the search pattern.
 
-![How to use live search with Android](/img/android/search.gif)
+<img src="/img/android/search.gif" alt="How to use live search with Android" width="346" />
 
 If it is disabled, you have to use the magnifier or the enter button in your keyboard to start the search.
 
@@ -114,7 +114,7 @@ If it is disabled, you have to use the magnifier or the enter button in your key
 
 If this setting is enabled, you have to enter a glob pattern into the search bar.
 
-![How to use live search with Android](/img/android/search-glob-pattern.gif)
+<img src="/img/android/search-glob-pattern.gif" alt="How to use live search with Android" width="346" />
 
 If it is disabled, the beginning of the cloud node names must match the entered text. Upper and lower case is not relevant in this option.
  

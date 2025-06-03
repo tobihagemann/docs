@@ -22,29 +22,29 @@ Please keep in mind that Cryptomator then cannot connect to your vault anymore.
 
 ## Login Dropbox {#login-dropbox}
 
-![How to handle cloud services with Android](/img/android/add-dropbox-login-provider-0.png)
+<img src="/img/android/add-dropbox-login-provider-0.png" alt="How to handle cloud services with Android" width="346" />
 
-![How to handle cloud services with Android](/img/android/add-dropbox-login-provider-1.png)
+<img src="/img/android/add-dropbox-login-provider-1.png" alt="How to handle cloud services with Android" width="346" />
 
 ## Login Google Drive {#login-google-drive}
 
-![How to handle cloud services with Android](/img/android/add-googledrive-login-provider.png)
+<img src="/img/android/add-googledrive-login-provider.png" alt="How to handle cloud services with Android" width="346" />
 
 ## Login OneDrive {#login-onedrive}
 
-![How to handle cloud services with Android](/img/android/add-onedrive-login-provider-0.png)
+<img src="/img/android/add-onedrive-login-provider-0.png" alt="How to handle cloud services with Android" width="346" />
 
-![How to handle cloud services with Android](/img/android/add-onedrive-login-provider-1.png)
+<img src="/img/android/add-onedrive-login-provider-1.png" alt="How to handle cloud services with Android" width="346" />
 
 ## Login WebDAV {#login-webdav}
 
 Please see [a non-exhaustive list of Cloud Services](/docs/misc/supported-cloud-services.md#cloud-services-with-webdav-support) and information about accessing them with WebDAV.
 
-![How to handle cloud services with Android](/img/android/add-webdav-login-provider-0.png)
+<img src="/img/android/add-webdav-login-provider-0.png" alt="How to handle cloud services with Android" width="346" />
 
-![How to handle cloud services with Android](/img/android/add-webdav-login-provider-1.png)
+<img src="/img/android/add-webdav-login-provider-1.png" alt="How to handle cloud services with Android" width="346" />
 
-![How to handle cloud services with Android](/img/android/add-webdav-login-provider-2.png)
+<img src="/img/android/add-webdav-login-provider-2.png" alt="How to handle cloud services with Android" width="346" />
 
 :::note
 While creating the WebDAV connection, please make sure to add the root of the accessible storage and don't navigate directly into the vault.
@@ -56,21 +56,21 @@ Generate a key that has permissions "Allow List All Bucket Names". (AWS root use
 
 "endpoint" refers to how the S3 API for your bucket can be reached. In the case of [official S3](https://docs.aws.amazon.com/general/latest/gr/s3.html), it would be `s3.<region>.amazonaws.com`, for e.g. [Backblaze B2](https://www.backblaze.com/apidocs/introduction-to-the-s3-compatible-api) `s3.<region>.backblazeb2.com`.
 
-![Android S3 connection form](/img/android/add-s3-login-provider.png)
+<img src="/img/android/add-s3-login-provider.png" alt="Android S3 connection form" width="346" />
 
 ## Login Local Storage {#login-local-storage}
 
 The following pictures describes how to setup a location to access vaults stored on the internal storage of the device (the same applies for vaults located e.g. on a SD card):
 
-![How to handle cloud services with Android](/img/android/add-localstorage-login-provider-0.png)
+<img src="/img/android/add-localstorage-login-provider-0.png" alt="How to handle cloud services with Android" width="346" />
 
-![How to handle cloud services with Android](/img/android/add-localstorage-login-provider-1.png)
+<img src="/img/android/add-localstorage-login-provider-1.png" alt="How to handle cloud services with Android" width="346" />
 
-![How to handle cloud services with Android](/img/android/add-localstorage-login-provider-2.png)
+<img src="/img/android/add-localstorage-login-provider-2.png" alt="How to handle cloud services with Android" width="346" />
 
-![How to handle cloud services with Android](/img/android/add-localstorage-login-provider-3.png)
+<img src="/img/android/add-localstorage-login-provider-3.png" alt="How to handle cloud services with Android" width="346" />
 
-![How to handle cloud services with Android](/img/android/add-localstorage-login-provider-4.png)
+<img src="/img/android/add-localstorage-login-provider-4.png" alt="How to handle cloud services with Android" width="346" />
 
 After creating the location, you can access it by clicking on the name of the location to add a vault or create a new vault.
 
