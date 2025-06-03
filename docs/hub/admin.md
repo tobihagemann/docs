@@ -1,7 +1,7 @@
 ---
 id: admin
 title: Admin
-sidebar_position: 5
+sidebar_position: 8
 ---
 
 # Admin
@@ -128,6 +128,6 @@ With the **Fingerprint Verification Preciseness** property, the minimum length o
 * The minimum value, 0, means the fingerprint of the trustee is fully shown without any input needed.
 
 :::note
-If a user resets their account, their User Key Pair is regenerated, invalidating all previously established trust relationships regarding this user.  
+If a user resets their account, their [User Key Pair](/docs/security/hub.md#user-key-pair) is regenerated, invalidating all previously established trust relationships regarding this user.  
 Additionally, any existing trust chains that included the user will be broken, requiring re-verification to restore trust.
 :::

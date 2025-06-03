@@ -1,7 +1,7 @@
 ---
 id: your-account
 title: Your Account
-sidebar_position: 8
+sidebar_position: 4
 ---
 
 # Your Account
@@ -50,13 +50,13 @@ You can open it by clicking on your profile icon in the top right corner and sel
 
 ### Change Language {#change-language}
 
-You can change the language of Cryptomator Hub to match your preference.  
+You can change the language of Cryptomator Hub to match your preference.
 The language selection is available in the profile settings.
 
-Is your preferred language not available yet?  
-We are continuously working on adding more languages.  
-If you're interested, you can contribute translations via Crowdin:  
-`Cryptomator Hub on Crowdin](https://crowdin.com/project/cryptomator).
+Is your preferred language not available yet?
+We are continuously working on adding more languages.
+If you're interested, you can contribute translations via Crowdin:
+[Cryptomator Hub on Crowdin](https://crowdin.com/project/cryptomator).
 
 ### Regenerate Account Key {#regenerate-account-key}
 
@@ -96,8 +96,8 @@ If you have any legacy device
 
 ### User Key Fingerprint {#user-key-fingerprint}
 
-The fingerprint can be used to verify the identity of the user, for example when updating the permissions of a vault.
-It will only change if you reset your account.
+The fingerprint can be used to verify the identity of the user, for example when [updating the permissions](vault-management.md#update-permissions) of a vault.
+It will only change if you [reset your account](#reset-account).
 
 ## Reset Account {#reset-account}
 If you lose your account key and can't access any trusted browser, you can reset your account when logging in from a new device.

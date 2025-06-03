@@ -108,10 +108,9 @@ Before running this deployment
 1. You must have ports 80 and 443 open on the host machine
 1. You need to create for Hub and optionally Keycloak DNS entries (`CNAME`, or `A` record) for the domain entered in the Setup Wizard of Hub
 1. Create a Hub deployment using the [Setup Wizard](https://cryptomator.org/hub/self-hosted/) with `include Traeffik` selected and merge the content with this file:
-
-   1. Copy the `hub-internal: {}` section of the Setup Wizard to this `networks`
-   1. Copy all services of the Setup Wizard under the `services` section to this `services`
-   1. Copy the `volumes` from the Setup Wizard to this file
+    1. Copy the `hub-internal: {}` section of the Setup Wizard to this `networks`
+    1. Copy all services of the Setup Wizard under the `services` section to this `services`
+    1. Copy the `volumes` from the Setup Wizard to this file
 
 Troubleshooting: If you encounter problems, check the log files in `logs/traffik.log` and `logs/access.log`. Make sure you entered `srv` as `Public Network` in the Setup Wizard of Hub.
 
@@ -121,7 +120,7 @@ Cryptomator Hub and Keycloak both write to the connected Postgres database. So t
 
 ```bash
 Docker:
-docker exec -u postgres -it postgres /bin/bash -c /usr/local/bin/pg_dumpall \ 
+docker exec -u postgres -it postgres /bin/bash -c /usr/local/bin/pg_dumpall \
     > "$(date +%F)-hub-backup"
 
 Kubernetes:

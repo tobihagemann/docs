@@ -1,7 +1,7 @@
 ---
 id: vault-management
 title: Vault Management
-sidebar_position: 3
+sidebar_position: 5
 ---
 
 # Vault Management
@@ -131,7 +131,7 @@ The WoT state of a user is displayed in the vault details page. The state can be
 * **Unverified**: There is no trust chain between you and the specific user. Indicated with a red shield. You can change this by verifying the user.
 * **Verified**: There is a trust chain between you and the specific user. Indicated with a green shield. You or a user you trust has verified the user.
 
-To verify `alice`, click on the red shield icon and select `Check Idenditiy…`
+To verify `alice`, click on the red shield icon and select `Check Identity…`
 
 <img src="/img/hub/wot-carol-unverified.png" alt="Carol is unverified regarding its Web of Trust state" width="920" />
 
@@ -147,7 +147,7 @@ The verification process is logged in the audit log with event type `Signed Iden
 
 <img src="/img/hub/wot-audit-log.png" alt="Audit log" width="920" />
 
-`signature still valid` means that the `identiy` has still the same key. If the user account gets reset after verification, this message changes to `was valid; signed key changed by now` and the user needs to get verified again.
+`signature still valid` means that the `identity` has still the same key. If the user account gets reset after verification, this message changes to `was valid; signed key changed by now` and the user needs to get verified again.
 
 You can read more details about Web of Trust and how to configure its settings in the [Admin section of Hub](admin.md#web-of-trust).
 
