@@ -19,7 +19,7 @@ It consists of 68 bytes.
 
 * 16 bytes tag of the encrypted payload.
 
-```console
+```
 headerNonce := createRandomBytes(12)
 contentKey := createRandomBytes(32)
 cleartextPayload := 0xFFFFFFFFFFFFFFFF . contentKey
@@ -70,7 +70,7 @@ The directory ID for the root directory is the empty string.
 For all other directories, it is a random sequence of at most 36 ASCII chars.
 We recommend using random UUID (Universally unique identifier).
 
-```console
+```
 dirId := createUuid()
 ```
 
@@ -81,7 +81,7 @@ When traversing directories, the directory ID of a given subdirectory is process
 3. Encoding the hash with Base32 to get a string of printable chars.
 4. Constructing the directory path out of the Base32-encoded hash.
 
-```console
+```
 dirIdHash := base32(sha1(aesSiv(dirId, null, encryptionMasterKey, macMasterKey)))
 dirPath := vaultRoot + '/d/' + substr(dirIdHash, 0, 2) + '/' + substr(dirIdHash, 2, 30)
 ```
@@ -101,7 +101,7 @@ This prevents undetected movement of files between directories.
 
 *Unencrypted directory ID of the parent dir [as described above](#directory-ids)
 
-```console
+```
 ciphertextName := base64url(aesSiv(cleartextName, parentDirId, encryptionMasterKey, macMasterKey)) + '.c9r'
 ```
 
@@ -116,7 +116,7 @@ Depending on the kind of node, the encrypted name is then either used to create 
 
 Thus, a cleartext directory structure like this:
 
-```console
+```
 .
 ├─ File.txt
 ├─ SymlinkToFile.txt
@@ -127,7 +127,7 @@ Thus, a cleartext directory structure like this:
 
 Becomes a ciphertext directory structure like this:
 
-```console
+```
 .
 ├─ d
 │  ├─ BZ
@@ -175,7 +175,7 @@ Again, we have to distinguish the kind of a node.
 
 A vault containing several nodes with very long names might result in a ciphertext structure like this:
 
-```console
+```
 .
 ├─ d
 │  ├─ BZ

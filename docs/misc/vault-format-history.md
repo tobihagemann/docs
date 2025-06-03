@@ -32,7 +32,7 @@ The following changes are:
 
 This is an example of the vault structure:
 
-```console
+```
 .
 ├─ d
 │  ├─ BZ
@@ -88,7 +88,7 @@ Directories are now stored with different names to avoid conflicts with the nami
 
 This is an example of the vault structure:
 
-```console
+```
 .
 ├─ d
 │  ├─ BZ
@@ -117,7 +117,7 @@ Vault formats 1 and 2 were only used in beta versions of Cryptomator.
 
 This is an example of the vault structure:
 
-```console
+```
 .
 ├─ d
 │  ├─ BZ

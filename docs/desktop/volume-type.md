@@ -16,12 +16,12 @@ In general, all volume types Cryptomator offers can be categorized into two cate
 1. [WebDAV](#what-is-a-webdav-volume-type)
 2. [FUSE](#what-is-a-fuse-volume-type)
 
-## What Is a Webdav Volume Type? {#what-is-a-webdav-volume-type}
+## What Is a WebDAV Volume Type? {#what-is-a-webdav-volume-type}
 
 WebDAV is a standardized [communication protocol](https://en.wikipedia.org/wiki/WebDAV) used to perform operations on resources (files, directories/folders) between a client (you) and a server (your local computer).
 WebDAV was intended for remote access, but Cryptomator uses it to start a local-only server, which you can use to browse your decrypted files.
 
-You can tweak WebDAV's settings for each vault by navigating to `Cryptomator Preferences` → `Virtual Drive`.
+You can tweak WebDAV's settings for each vault by navigating to Cryptomator's `Preferences` → `Virtual Drive`.
 
 WebDAV has widespread support and adequate performance, but its implementation differs between operating systems.
 

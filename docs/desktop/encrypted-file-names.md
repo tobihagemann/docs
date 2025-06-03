@@ -13,7 +13,7 @@ Neither file name nor directory structure encryption can be disabled.
 Cryptomator protects your files by not only encrypting their content, but also their names and the overall directory structure of the vault.
 For example, if you have a directory structure inside your vault like this:
 
-```console
+```
 .
 ├─ myProject.pptx
 ├─ Images for Project
@@ -23,7 +23,7 @@ For example, if you have a directory structure inside your vault like this:
 
 The actual directory structure of the vault on your hard drive/cloud will look like this:
 
-```console
+```
 .
 ├─ d
 │  ├─ BZ
@@ -41,7 +41,7 @@ The actual directory structure of the vault on your hard drive/cloud will look l
 ```
 
 While this increases security, it also makes it impossible to see the original file names and directory structure without decrypting them first.
-When you need to know the original name of a file (e.g. to restore an older version), you can use the "Decrypt file name" feature to decrypt the file name.
+When you need to know the original name of a file (e.g. to restore an older version), you can use the `Decrypt File Name` feature to decrypt the file name.
 
 ## Decrypting File Names {#decrypting-file-names}
 
@@ -51,7 +51,7 @@ It cannot compute its cleartext path.
 :::
 
 You can access this feature from the unlocked view of a vault in the Cryptomator main window.
-On the bottom of the unlocked view, drop files on the "Decrypt file name" zone or click on it.
+On the bottom of the unlocked view, drop files on the `Decrypt File Name` zone or click on it.
 A modal window with the encrypted-decrypted-mapping opens.
 
 <img src="/img/desktop/vault-detail-unlocked.png" alt="Vault detail view in the unlocked state" width="495" />

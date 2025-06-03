@@ -9,28 +9,26 @@ sidebar_position: 13
 In general, Cryptomator does not require a network connection to function.
 
 If the network connection is present, it is used for optional features, i.e. update checks and searching the error database for solutions.
-The only exception is when unlocking Cryptomator Hub vaults, then a network connection to the hub server is required.
+The only exception is when unlocking [Cryptomator Hub](/docs/hub/introduction.md) vaults, then a network connection to the hub server is required.
 All network connections to the internet are using HTTPS with at least TLS 1.2.
 
 ## Trust Certificate Management {#trust-certificate-management}
 
 Depending on the OS, the required trusted root certificates are loaded from different locations.
 
-| OS      | Trust store                                                                                                                    |
-| :------ | :----------------------------------------------------------------------------------------------------------------------------- |
-| Linux   | PKCS#12 file `/etc/cryptomator/certs.p12`; If the file does not exist, the JDK default trust store is used. [1]                   |
-| macOS   | System keychain                                                                                                                |
+| OS      | Trust Store                                                                                                                                     |
+| :------ | :---------------------------------------------------------------------------------------------------------------------------------------------- |
+| Linux   | PKCS#12 file `/etc/cryptomator/certs.p12`; If the file does not exist, the JDK default trust store is used. [^1]                                |
+| macOS   | System keychain                                                                                                                                 |
 | Windows | Certificate store "Trusted Root Certification Authorities", with registry path `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SystemCertificates\ROOT\` |
 
-Remarks:
-
-[1] For more information about the location and contained certificates, see [JEP 319](https://openjdk.org/jeps/319).
+[^1]: For more information about the location and contained certificates, see [JEP 319](https://openjdk.org/jeps/319).
 
 ## Proxy Server {#proxy-server}
 
 The default proxy server differs depending on the operating system:
 
-| OS      | Default proxy setting |
+| OS      | Default Proxy Setting |
 | :------ | :-------------------- |
 | Linux   | No proxy              |
 | macOS   | Use system proxy      |
