@@ -1,7 +1,7 @@
 ---
 id: cloud-management
 title: Cloud Management
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # Cloud Management

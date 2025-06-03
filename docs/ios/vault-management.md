@@ -1,7 +1,7 @@
 ---
 id: vault-management
 title: Vault Management
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Vault Management
