@@ -4,7 +4,7 @@ title: Accessing Vaults
 sidebar_position: 4
 ---
 
-# Accessing Vaults {#accessing-vaults}
+# Accessing Vaults
 
 You can only access decrypted files of a vault if you can unlock it. Unlocking a vault is just a two-step process as long as you know the password.
 
@@ -37,7 +37,7 @@ Anyone with access to the computer with stored passwords will be able to unlock 
 
 ![Vault unlock success dialog](/img/desktop/unlock-success.png)
 
-## Manage Files and Folders in your Vault {#manage-files-and-folders-in-your-vault}
+## Manage Files and Folders in Your Vault {#manage-files-and-folders-in-your-vault}
 
 By default, a vault's content will be accessible via an attached virtual drive on your PC.
 So, you can manage files and folders in your unlocked vault just like you do on any other hard drive or USB drive.
@@ -55,7 +55,7 @@ Even though your files are shown unencrypted in the virtual drive, they are not 
 On Windows, you can choose the drive letter of the virtual drive for each vault using advanced vault options.
 :::
 
-## Locking a vault {#locking-a-vault}
+## Locking a Vault {#locking-a-vault}
 
 To lock a vault, simply click `Lock` and the virtual drive will disappear or render empty. Your files remain encrypted at the vault's location.
 

@@ -4,7 +4,7 @@ title: Vault Management
 sidebar_position: 2
 ---
 
-# Vault Management {#vault-management}
+# Vault Management
 
 TODO.
 

@@ -16,7 +16,7 @@ In general, all volume types Cryptomator offers can be categorized into two cate
 1. [WebDAV](#what-is-a-webdav-volume-type)
 2. [FUSE](#what-is-a-fuse-volume-type)
 
-## What is a WebDAV volume type? {#what-is-a-webdav-volume-type}
+## What Is a Webdav Volume Type? {#what-is-a-webdav-volume-type}
 
 WebDAV is a standardized [communication protocol](https://en.wikipedia.org/wiki/WebDAV) used to perform operations on resources (files, directories/folders) between a client (you) and a server (your local computer).
 WebDAV was intended for remote access, but Cryptomator uses it to start a local-only server, which you can use to browse your decrypted files.
@@ -25,7 +25,7 @@ You can tweak WebDAV's settings for each vault by navigating to `Cryptomator Pre
 
 WebDAV has widespread support and adequate performance, but its implementation differs between operating systems.
 
-## What is a FUSE volume type? {#what-is-a-fuse-volume-type}
+## What Is a FUSE Volume Type? {#what-is-a-fuse-volume-type}
 
 Filesystem in Userspace ([FUSE](https://en.wikipedia.org/wiki/Filesystem_in_Userspace)) is a filesystem interface originally developed for Unix operating systems that let non-privileged users create their own file systems without editing kernel code.
 Which means, FUSE does not require admin privileges and has good support across all major desktop operating systems.
@@ -118,7 +118,7 @@ FUSE-T is a new project, so support for it is currently marked as experimental. 
 WebDAV on macOS utilizes the scripting language [AppleScript](https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html) to mount/unmount the virtual drive.
 By default, unlocked vaults are mounted to `/Volumes`.
 
-## Linux based OS {#linux-based-os}
+## Linux-Based OS {#linux-based-os}
 
 ### FUSE {#fuse}
 
@@ -142,7 +142,7 @@ Due to the wide variety of Linux distributions, Cryptomator only supports system
 You can unlock your vault without `gio` using [WebDAV (HTTP Address)](#webdav-http-address), but support across distributions is not guaranteed.
 Also, it's up to yourself to figure out how to integrate WebDAV share with your distro.
 
-## OS Independent {#os-independent}
+## OS-Independent {#os-independent}
 
 ### WebDAV (HTTP Address) {#webdav-http-address}
 

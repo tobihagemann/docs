@@ -30,7 +30,7 @@ If it exists, the usage of a user's *per-user advanced configuration* can not cu
 
 For a more technical explanation of the structure and location of the advanced configuration, please see the [upstream specification](https://bugs.openjdk.org/browse/JDK-8287060).
 
-## Locating the *system-wide advanced configuration* {#locating-the-system-wide-advanced-configuration}
+## Locating the *System-Wide Advanced Configuration* {#locating-the-system-wide-advanced-configuration}
 
 :::note
 Editing the *system-wide advanced configuration* may require elevated privileges (i.e. admin or root permissions).
@@ -49,7 +49,7 @@ The location may differ depending on Cryptomator's installation location:
 *   macOS: Might be located in the "User Application Folder": `~/Applications/...`
 *   Linux: Alternatively use the command: `open $(dirname $(dirname $(readlink -f $(which cryptomator))))/lib/app/`
 
-## Locating the *per-user advanced configuration* {#locating-the-per-user-advanced-configuration}
+## Locating the *Per-User Advanced Configuration* {#locating-the-per-user-advanced-configuration}
 
 The following table lays out instructions to access the *per-user advanced configuration* for your Operating System.  
 You may need to create the file or its containing folder. If at least one *per-user advanced configuration* exists, it
@@ -65,7 +65,7 @@ takes precedence over the *system-wide advanced configuration* for that user:
 *   Windows: If both exist, the path marked with (*) takes precedence.
 *   Linux: If both exist, the path marked with (*) takes precedence.
 
-## Editing the advanced configuration {#editing-the-advanced-configuration}
+## Editing the Advanced Configuration {#editing-the-advanced-configuration}
 
 To replace a property, change the value after the equals sign in the corresponding entry in the `[JavaOptions]` section.
 

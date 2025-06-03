@@ -80,7 +80,7 @@ Open the [vault details](#vault-details) page to manage a vault.
 * `Show Recovery Key` button
 * `Archive Vault` button
 
-### Share a vault {#share-a-vault}
+### Share a Vault {#share-a-vault}
 
 If a user should have access to this vault, you need to share it with the user.
 Click in the search field of the `Shared with` section, select it from the results list and click the `Add` button.

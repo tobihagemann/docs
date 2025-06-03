@@ -15,7 +15,7 @@ As an Hub administrator, you can view license information in the administration 
 
 ![Administration area](/img/hub/admin-area-license.png)
 
-### What is a Seat? {#what-is-a-seat}
+### What Is a Seat? {#what-is-a-seat}
 
 A regular license contains a fixed number of *seats*.
 A *seat* is taken for every user, which is assigned to at least one, not-archived vault.
@@ -33,7 +33,7 @@ Enterprise licenses can have an unlimited number of seats. Visit [cryptomator.or
 
 When you deploy Cryptomator Hub by yourself, it comes with a community license with life-long validity and 5 seats.
 
-### Updating your License {#updating-your-license}
+### Updating Your License {#updating-your-license}
 
 If the community license is not sufficient for your needs, you can upgrade it to a paid license.
 You can also upgrade an already existing, paid license.

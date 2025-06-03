@@ -22,7 +22,7 @@ There you can perform all users or groups related tasks, such as
 Subgroups are not supported at this time.
 :::
 
-## Connect external IAM {#connect-external-iam}
+## Connect External IAM {#connect-external-iam}
 
 Alternatively to the in-house administration, you can also connect Keycloak to other identity and access management solutions (IAM) to keep your user management centralized.
 You can either only synchronize existing users and groups from your IAM (using LDAP or Active Directory) or completely delegate the authentication process to your IAM via OpenID Connect or SAML.

@@ -1,10 +1,10 @@
 ---
 id: password-and-recovery-key
-title: Password And Recovery Key
+title: Password and Recovery Key
 sidebar_position: 6
 ---
 
-# Password And Recovery Key
+# Password and Recovery Key
 
 This section explains how to change a password for a vault, show its recovery key, and reset a password.
 But, before that, let's understand how Cryptomator encrypts a vault using a password and what a recovery key is.

@@ -21,7 +21,7 @@ If possible, *we therefore recommend that you access your data using the native 
 
 The following sections will provide you with an overview of [natively supported Cloud Services](#natively-supported-cloud-services), as well as information about [selected Cloud Services with WebDAV support](#cloud-services-with-webdav-support) and a list of [incompatible Cloud Services](#incompatible-cloud-services).
 
-## Natively supported Cloud Services (Recommended) {#natively-supported-cloud-services}
+## Natively Supported Cloud Services (Recommended) {#natively-supported-cloud-services}
 
 The following Cloud Services are natively supported by Cryptomator for Android and/or Cryptomator for iOS.
 
@@ -40,9 +40,9 @@ The following Cloud Services are natively supported by Cryptomator for Android a
 
 [^1]: **We recommend using the** [**Google Play Store variant**](/docs/android/setup.md#google-play-store) **of Cryptomator for Android users** for the best experience. Please see [here](/docs/android/setup.md#variant-differences) for more information about the different Cryptomator for Android variants and the reasoning behind those.
 
-[^2]: Not supported by the [Main F-Droid repo variant](/docs/android/setup.md#f-droid-main-repository) because this Cloud Service requires an API key.
+[^2]: Not supported by the [Main F-Droid repo variant](/docs/android/setup.md#main-f-droid-repository) because this Cloud Service requires an API key.
 
-[^3]: Not supported by the [Cryptomator F-Droid repo variant](/docs/android/setup.md#f-droid-repository) because this Cloud Service requires proprietary dependencies.
+[^3]: Not supported by the [Cryptomator F-Droid repo variant](/docs/android/setup.md#cryptomator-f-droid-repository) because this Cloud Service requires proprietary dependencies.
 
 [^4]: Not supported by the [Accrescent variant](/docs/android/setup.md#accrescent) because this Cloud Service requires proprietary dependencies.
 
@@ -50,7 +50,7 @@ The following Cloud Services are natively supported by Cryptomator for Android a
 
 [^6]: Please see [Cloud Services with WebDAV support](#cloud-services-with-webdav-support) for a non-exhaustive list of Cloud Services and information about accessing them with WebDAV.
 
-## Cloud Services with WebDAV support {#cloud-services-with-webdav-support}
+## Cloud Services With WebDAV Support {#cloud-services-with-webdav-support}
 
 The following *non-exhaustive* table lays out information about Cloud Services that can be accessed using WebDAV by both Cryptomator for Android and Cryptomator for iOS.
 

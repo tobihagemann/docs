@@ -89,7 +89,7 @@ So, store your password in a secure password manager or just don't forget it.
 However, you can reset a vault's password by yourself if you have its *recovery key*.
 :::
 
-### 5. Show Recovery Key (optional step) {#show-recovery-key}
+### 5. Show Recovery Key (Optional Step) {#show-recovery-key}
 
 A recovery key allows you to reset your password if you ever forget it.
 

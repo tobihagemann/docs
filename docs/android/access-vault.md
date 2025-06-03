@@ -197,7 +197,7 @@ For more information, see the Settings chapter.
 
 <img src="/img/android/sort.gif" alt="How to sort the content of a folder with Android" width="346" />
 
-## Fast scroll {#fast-scroll}
+## Fast Scroll {#fast-scroll}
 
 <img src="/img/android/fast-scroll.gif" alt="How to scroll fast through the content of a folder with Android" width="346" />
 
