@@ -11,11 +11,14 @@ safe and private synchronization of your data. When using Cryptomator for Deskto
 Cloud Service's synchronization software installed on your computer to access cloud-based vaults.
 
 In comparison, Cryptomator for Android and Cryptomator for iOS support access to vaults that are stored with a range of Cloud Services directly from within the app.
+
 While the Cryptomator for Android and Cryptomator for iOS apps offer native support for a growing number of cloud services, it can happen, especially with smaller ones, that your Cloud Service is not natively supported.
+
 In this case, however, most providers allow you to connect to your vaults via WebDAV instead.
 
 :::note
 Depending on how well it is supported by your provider, individual features may not work optimally when using WebDAV.
+
 If possible, *we therefore recommend that you access your data using the native integration* of your Cloud Service for an optimal user experience.
 :::
 
@@ -107,8 +110,9 @@ The following *non-exhaustive* table lays out information about Cloud Services t
 ## Incompatible Cloud Services {#incompatible-cloud-services}
 
 The Cloud Services listed in the following *non-exhaustive* table can currently **not** be used natively or via WebDAV.
+
 This applies to both Cryptomator for Android and Cryptomator for iOS.
 
-| Cloud Service | Android Feature request | iOS Feature request |
+| Cloud Service | Android Feature Request | iOS Feature Request |
 |:--------------|:------------------------|:--------------------|
 | Mega | [#39](https://github.com/cryptomator/android/issues/39) | [#258](https://github.com/cryptomator/ios/issues/258) |

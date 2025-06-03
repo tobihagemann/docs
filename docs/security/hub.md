@@ -1,7 +1,7 @@
 ---
 id: hub
 title: Cryptomator Hub
-sidebar_position: 5
+sidebar_position: 3
 ---
 
 # Cryptomator Hub
@@ -14,8 +14,7 @@ Cryptomator Hub facilitates different keys types. Here is an overview of these t
 
 ### User Key Pair {#user-key-pair}
 
-During first login, every user will generate a new EC key pair. The private key is then encrypted using both the Account Key
-as well as the Device Key of every single device owned by this user.
+During first login, every user will generate a new EC key pair. The private key is then encrypted using both the [Account Key](#account-key) as well as the [Device Key](#device-key-pair) of every single device owned by this user.
 
 The purpose of the user key is to access secrets that have been shared with this user using [ECDH-ES-encrypted JWEs](https://datatracker.ietf.org/doc/html/rfc7518.html#section-4.6), most prominently the masterkey of shared vaults.
 
@@ -32,14 +31,13 @@ web interface as well as the mobile app on a user's smartphone. On multi-user sy
 which case we're talking about multiple devices with distinct key pairs, even if they share the same hardware.
 :::
 
-The sole purpose of the device key is to decrypt the User Key, which is stored in a device-specific [ECDH-ES-encrypted JWE](https://datatracker.ietf.org/doc/html/rfc7518.html#section-4.6).
+The sole purpose of the device key is to decrypt the [User Key](#user-key-pair), which is stored in a device-specific [ECDH-ES-encrypted JWE](https://datatracker.ietf.org/doc/html/rfc7518.html#section-4.6).
 
 Users can invalidate devices by simply deleting the device-specific JWE and rotating their user key.
 
 ### Account Key {#account-key}
 
-When users attempt to access their account from a new device, there is no device-specific JWE yet. Instead they can then use the Account Key to decrypt
-the User Key. The Account Key acts as a password to derive a key for a [PBES2-encrypted JWE](https://datatracker.ietf.org/doc/html/rfc7518.html#section-4.8).
+When users attempt to access their account from a new device, there is no device-specific JWE yet. Instead they can then use the Account Key to decrypt the [User Key](#user-key-pair). The Account Key acts as a password to derive a key for a [PBES2-encrypted JWE](https://datatracker.ietf.org/doc/html/rfc7518.html#section-4.8).
 
 :::warning
 The Account Key needs to be kept secret, as it is the only user-facing secret that allows anyone knowing it to authorize as the corresponding user.
