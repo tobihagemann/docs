@@ -1,7 +1,7 @@
 ---
 id: advanced-settings
 title: Advanced Setting Properties
-sidebar_position: 10
+sidebar_position: 12
 ---
 
 # Advanced Setting Properties

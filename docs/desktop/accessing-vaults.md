@@ -49,7 +49,7 @@ Click on `Reveal Drive` in the Cryptomator window to open the mount location usi
 Even though your files are shown unencrypted in the virtual drive, they are not stored unencrypted on the hard drive but only in [volatile memory](https://en.wikipedia.org/wiki/Volatile_memory).
 :::
 
-![Cryptomator window showing an unlocked vault](/img/desktop/vault-detail-unlocked.png)
+![Cryptomator window showing an unlocked vault](/img/desktop/vault-detail-unlocked-simple.png)
 
 :::note
 On Windows, you can choose the drive letter of the virtual drive for each vault using advanced vault options.
@@ -71,7 +71,7 @@ As an alternative for clicking the button, you can directly drag & drop a file o
 
 A file manager window opens showing the encrypted folder and marking the encrypted file.
 
-<video width="640" height="360" controls autoPlay loop muted>
-  <source src="/img/desktop/locate-encrypted-file.mov" type="video/mp4" />
+<video controls autoplay loop muted style={{width: '100%', maxWidth: '1280px', height: 'auto'}}>
+  <source src="/vid/locate-encrypted-file.mov" type="video/mp4" />
   Your browser does not support the video tag.
 </video>

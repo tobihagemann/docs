@@ -1,7 +1,7 @@
 ---
 id: error-handling
 title: Error Handling
-sidebar_position: 8
+sidebar_position: 10
 ---
 
 # Error Handling

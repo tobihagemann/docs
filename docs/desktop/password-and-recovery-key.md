@@ -1,7 +1,7 @@
 ---
 id: password-and-recovery-key
 title: Password and Recovery Key
-sidebar_position: 6
+sidebar_position: 5
 ---
 
 # Password and Recovery Key
@@ -26,7 +26,7 @@ You can access it by selecting a vault, lock it if necessary, and click on `Vaul
 
 To change the password of an existing vault, you need to know its current one or have a recovery key (see reset password section).
 
-Navigate to the `Vault Options` -> `Password` tab, and click on `Change Password`.
+Navigate to the `Vault Options` → `Password` tab, and click on `Change Password`.
 
 In the opened window, you will be asked for:
 
