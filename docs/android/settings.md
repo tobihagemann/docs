@@ -11,7 +11,7 @@ This section provides an overview of the different settings.
 
 ## General Settings {#general-settings}
 
-After pressing the three dots ① and clicking on [`Settings``, you will find options to customize Cryptomator.
+After pressing the three dots ① and clicking on `Settings`, you will find options to customize Cryptomator.
 
 <img src="/img/android/launch-settings.png" alt="How to launch settings with Android" width="346" />
 

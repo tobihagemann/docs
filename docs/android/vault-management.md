@@ -1,12 +1,17 @@
 ---
 id: vault-management
 title: Vault Management
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Vault Management
 
-TODO.
+A *vault* is where your files are stored encrypted on your Android device or cloud storage.
+When you create or access a vault through Cryptomator for Android, your files are automatically encrypted and decrypted in real-time.
+Only Cryptomator can decrypt the vault's contents when you unlock it using your password.
+
+Cryptomator for Android supports various storage locations including local device storage, Dropbox, Google Drive, OneDrive, and any cloud service that offers WebDAV access.
+This allows you to securely access your encrypted files from anywhere while maintaining full control over your data.
 
 ## Create a New Vault {#create-a-new-vault}
 
@@ -17,16 +22,16 @@ To create a new vault, click on the plus sign ① and choose *Create new vault* 
 <img src="/img/android/create-new-vault-1-select-new-existing.png" alt="How to create a new vault with Android" width="346" />
 
 :::note
-If you already have a vault created with the desktop app and just want to add this vault to your mobile app, please select go to chapter `Add Existing Vaults`.
+If you already have a vault created with the desktop app and just want to add this vault to your mobile app, please go to chapter [Add Existing Vaults](#add-existing-vaults).
 :::
 
 You will now be prompted to select the Cloud Service where you want to store your vault.
 
 Choose between *Dropbox*, *Google Drive*, *OneDrive* (works also with *OneDrive for Business*) or *Local storage* (which means your local device with all attached devices).
 
-| If your desired provider is not listed and offers WebDAV access, please select *WebDAV* as the storage location of your vault.
-| Please see [a non-exhaustive list of Cloud Services](/docs/misc/supported-cloud-services.md#cloud-services-with-webdav-support) for a non-exhaustive list of Cloud Services
-  and information about accessing them with WebDAV.
+If your desired provider is not listed and offers WebDAV access, please select *WebDAV* as the storage location of your vault.
+
+Please see [Cloud Services With WebDAV Support](/docs/misc/supported-cloud-services.md#cloud-services-with-webdav-support) for a non-exhaustive list of Cloud Services and information about accessing them with WebDAV.
 
 <img src="/img/android/create-new-vault-2-select-provider.png" alt="How to create a new vault with Android" width="346" />
 
@@ -54,7 +59,7 @@ Choose a [good password](/docs/security/best-practices.md#good-passwords) to mak
 :::
 
 After you have confirmed your password, the vault is created.
-You will find it now on the start page of your Cryptomator app, where you can open your vault and optionally change settings. [documentation will follow]
+You will find it now on the start page of your Cryptomator app, where you can open your vault and optionally change settings.
 
 <img src="/img/android/create-new-vault-8-creating-vault.png" alt="How to create a new vault with Android" width="346" />
 
@@ -72,9 +77,9 @@ You will now be prompted to select the Cloud Service where the vault is located.
 
 Choose between *Dropbox*, *Google Drive*, *OneDrive* (works also with *OneDrive for Business*) or *Local storage* (which means your local device with all attached devices).
 
-| If your desired provider is not listed and offers WebDAV access, please select *WebDAV* as the storage location of your vault.
-| Please see [a non-exhaustive list of Cloud Services](/docs/misc/supported-cloud-services.md#cloud-services-with-webdav-support) for a non-exhaustive list of Cloud Services
-  and information about accessing them with WebDAV.
+If your desired provider is not listed and offers WebDAV access, please select *WebDAV* as the storage location of your vault.
+
+Please see [Cloud Services With WebDAV Support](/docs/misc/supported-cloud-services.md#cloud-services-with-webdav-support) for a non-exhaustive list of Cloud Services and information about accessing them with WebDAV.
 
 <img src="/img/android/add-existing-vault-2-select-provider.png" alt="How to add a vault with Android" width="346" />
 
@@ -92,7 +97,7 @@ Then choose the `masterkey.cryptomator` file.
 <img src="/img/android/add-existing-vault-6-choose-file.png" alt="How to add a vault with Android" width="346" />
 
 Now the vault is added to the list of vaults.
-You will find it now on the start page of your Cryptomator app, where you can open your vault and optionally change settings. [documentation will follow]
+You will find it now on the start page of your Cryptomator app, where you can open your vault and optionally change settings.
 
 <img src="/img/android/add-existing-vault-8-finish.png" alt="How to add a vault with Android" width="346" />
 

@@ -1,12 +1,12 @@
 ---
 id: cloud-management
 title: Cloud Management
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # Cloud Management
 
-![How to handle cloud services with Android](/img/android/setting-cloud-services.png)
+<img src="/img/android/setting-cloud-services.png" alt="How to handle cloud services with Android" width="346" />
 
 In "Cloud Services", you can create or edit the connection between the Cryptomator app and your storage provider accounts.
 
@@ -38,7 +38,7 @@ Please keep in mind that Cryptomator then cannot connect to your vault anymore.
 
 ## Login WebDAV {#login-webdav}
 
-Please see [a non-exhaustive list of Cloud Services](/docs/misc/supported-cloud-services.md#cloud-services-with-webdav-support) and information about accessing them with WebDAV.
+Please see [Cloud Services With WebDAV Support](/docs/misc/supported-cloud-services.md#cloud-services-with-webdav-support) for a non-exhaustive list of Cloud Services and information about accessing them with WebDAV.
 
 <img src="/img/android/add-webdav-login-provider-0.png" alt="How to handle cloud services with Android" width="346" />
 

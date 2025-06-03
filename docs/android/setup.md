@@ -18,24 +18,20 @@ No matter which variant of the app you choose: The key functionality of Cryptoma
 
 The variants only differ in terms of the [supported Cloud Services](/docs/misc/supported-cloud-services.md), the way they are downloaded and the way a license is acquired.
 If you have access to the *Google Play Store* on your device, **we recommend using the [Google Play Store variant](#google-play-store) of Cryptomator.**
+
 Otherwise, please keep reading.
 
 ## Differences Between Variants and How to Choose {#differences-between-variants-and-how-to-choose}
 
-While all variants of the Cryptomator for Android app have the same key functionality, you should make sure to pick
-the perfect variant for you:
+While all variants of the Cryptomator for Android app have the same key functionality, you should make sure to pick the perfect variant for you:
 
-Most users will want to use the [Google Play Store](#google-play-store) or the [APK Store](#apk-store) as installation type. Both variants have access to all
-[supported Cloud Services](/docs/misc/supported-cloud-services.md) and allow for maximum flexibility. While the *Google Play Store variant* can be purchased and downloaded via its
-*Google Play Store* page, the *APK Store variant* and the accompanying license must be obtained via our website.
+Most users will want to use the [Google Play Store](#google-play-store) or the [APK Store](#apk-store) as installation type. Both variants have access to all [supported Cloud Services](/docs/misc/supported-cloud-services.md) and allow for maximum flexibility. While the *Google Play Store variant* can be purchased and downloaded via its *Google Play Store* page, the *APK Store variant* and the accompanying license must be obtained via our website.
 
-The [Cryptomator F-Droid repo variant](#cryptomator-f-droid-repository) and [Main F-Droid repo variant](#main-f-droid-repository) both **don't** support Google Drive as Cloud Service because
-Google Drive requires proprietary dependencies which doesn’t fit the spirit of F-Droid.
-Additionally the *Main F-Droid repo variant* **doesn’t** support **any** Cloud Services that require an API key.
-Both can be downloaded from their corresponding F-Droid repository and require a license which can be obtained via
-[our website](https://cryptomator.org/android/).
-The *APK Store*, *F-Droid variants* and *Accrescent* of Cryptomator were created to serve users who do not have the *Google Play Store* installed
-on their Android device or do not want their purchases to go through Google.
+The [Cryptomator F-Droid repo variant](#cryptomator-f-droid-repository) and [Main F-Droid repo variant](#main-f-droid-repository) both **don't** support Google Drive as Cloud Service because Google Drive requires proprietary dependencies which doesn’t fit the spirit of F-Droid. Additionally the *Main F-Droid repo variant* **doesn’t** support **any** Cloud Services that require an API key.
+
+Both can be downloaded from their corresponding F-Droid repository and require a license which can be obtained via [our website](https://cryptomator.org/android/).
+
+The *APK Store*, *F-Droid variants* and *Accrescent* of Cryptomator were created to serve users who do not have the *Google Play Store* installed on their Android device or do not want their purchases to go through Google.
 
 :::tip
 If you have access to the *Google Play Store* on your device, **we recommend using the [Google Play Store variant](#google-play-store) of Cryptomator**
@@ -46,8 +42,10 @@ To learn more about the supported Cloud Services, please see [Supported Cloud Se
 
 ## Google Play Store {#google-play-store}
 
-> You can buy and download the *Google Play Store variant* of Cryptomator here:
-> [Google Play Store](https://play.google.com/store/apps/details?id=org.cryptomator&hl=en)
+:::note
+You can buy and download the *Google Play Store variant* of Cryptomator here:
+[Google Play Store](https://play.google.com/store/apps/details?id=org.cryptomator&hl=en)
+:::
 
 If you have installed Cryptomator via the *Google Play Store,* you will receive updates as usual via the *Google Play Store.*
 
@@ -57,8 +55,10 @@ Sometimes the *Google Play Store* has problems to recognize that the app was alr
 
 ## APK Store {#apk-store}
 
-> You can buy a license for the app and download the *APK Store variant* of Cryptomator here:
-> [APK Store](https://cryptomator.org/android/)
+:::note
+You can buy a license for the app and download the *APK Store variant* of Cryptomator here:
+[APK Store](https://cryptomator.org/android/)
+:::
 
 The *APK store variant* can be installed from the [APK Store](https://cryptomator.org/android/) on our website. Please verify the `SHA256 Signature` after downloading the APK before installing. The download is a so-called `APK` (Android application package), which is an installation archive. Install the app by simply clicking on the APK.
 
@@ -70,24 +70,32 @@ As this variant is not bought using the *Google Play Store* you need to buy a li
 
 ## Cryptomator F-Droid Repository {#cryptomator-f-droid-repository}
 
-> You can buy a license for the *Cryptomator F-Droid repository variant* of Cryptomator here:
-> [APK Store](https://cryptomator.org/android/)
+:::note
+You can buy a license for the *Cryptomator F-Droid repository variant* of Cryptomator here:
+[APK Store](https://cryptomator.org/android/)
+:::
 
-> You can download the *Cryptomator F-Droid repository variant* of Cryptomator from F-Droid after adding our F-Droid
-> repository to the F-Droid app by opening this link on the device or by scanning the following QR-Code:
-> [Cryptomator F-Droid repository](https://static.cryptomator.org/android/fdroid/repo?fingerprint=F7C3EC3B0D588D3CB52983E9EB1A7421C93D4339A286398E71D7B651E8D8ECDD)
+:::note
+You can download the *Cryptomator F-Droid repository variant* of Cryptomator from F-Droid after adding our F-Droid
+repository to the F-Droid app by opening this link on the device or by scanning the following QR-Code:
+[Cryptomator F-Droid repository](https://static.cryptomator.org/android/fdroid/repo?fingerprint=F7C3EC3B0D588D3CB52983E9EB1A7421C93D4339A286398E71D7B651E8D8ECDD)
 
 <img src="/img/android/fdroid-qr-code.svg" alt="F-Droid QR Code" width="128" />
+:::
 
 As with the *APK Store variant,* since this app variant is not purchased via the *Google Play Store,* you need to buy a license key from the [APK Store](https://cryptomator.org/android/) on our website. After Cryptomator is installed, you have to enter this key. This can be done by copying and pasting the license into the field when asked for it or by clicking on the link starting with `cryptomator://license/YOUR_LICENSE_KEY`.
 
 ## Main F-Droid Repository {#main-f-droid-repository}
 
-> You can buy a license for the *Main F-Droid repository variant* of Cryptomator here:
-> [APK Store](https://cryptomator.org/android/)
+:::note
+You can buy a license for the *Main F-Droid repository variant* of Cryptomator here:
+[APK Store](https://cryptomator.org/android/)
+:::
 
-> You can download the *Main F-Droid repository variant* of Cryptomator here:
-> [Main F-Droid repository](https://f-droid.org/en/packages/org.cryptomator.lite)
+:::note
+You can download the *Main F-Droid repository variant* of Cryptomator here:
+[Main F-Droid repository](https://f-droid.org/en/packages/org.cryptomator.lite)
+:::
 
 The *Main F-Droid repository variant* can be installed directly from the [Main F-Droid repository](https://f-droid.org/en/packages/org.cryptomator.lite). Regarding the license key, the same applies as with the [Cryptomator F-Droid repository variant](#cryptomator-f-droid-repository).
 
@@ -95,11 +103,15 @@ Unlike all other variants of Cryptomator for Android, this variant has its own p
 
 ## Accrescent {#accrescent}
 
-> You can buy a license for the *Accrescent* variant of Cryptomator here:
-> [APK Store](https://cryptomator.org/android/)
+:::note
+You can buy a license for the *Accrescent* variant of Cryptomator here:
+[APK Store](https://cryptomator.org/android/)
+:::
 
-> You can download the *Accrescent* variant of Cryptomator here:
-> [Accrescent](https://accrescent.app/app/org.cryptomator)
+:::note
+You can download the *Accrescent* variant of Cryptomator here:
+[Accrescent](https://accrescent.app/app/org.cryptomator)
+:::
 
 As this variant is not bought using the *Google Play Store* you need to buy a license key from the [APK Store](https://cryptomator.org/android/) on our website. After Cryptomator is installed, you have to enter this key. This can be done by copying and pasting the license into the field when asked for it or by clicking on the link starting with `cryptomator://license/YOUR_LICENSE_KEY`.
 
