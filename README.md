@@ -1,41 +1,38 @@
-# Cryptomator's Documentation
+# Cryptomator Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Official documentation site for Cryptomator. Built with [Docusaurus](https://docusaurus.io/).
 
-## Installation
+## Contributing
 
-```bash
-yarn
-```
+We welcome contributions! Please read our [contributing guidelines](.github/CONTRIBUTING.md) for details on how to help.
 
-## Local Development
+## Quick Start
 
 ```bash
-yarn start
+npm install
+npm start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Opens dev server at `http://localhost:3000` with live reload.
 
-## Build
+## Structure
+
+- `docs/desktop/` - Desktop app documentation
+- `docs/android/` - Android app documentation  
+- `docs/ios/` - iOS app documentation
+- `docs/hub/` - Cryptomator Hub documentation
+- `docs/security/` - Encryption architecture and security details
+- `docs/misc/` - Additional resources
+
+## Scripts
 
 ```bash
-yarn build
+npm run build # Build static site
+npm run serve # Serve built site locally
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Other scripts can be found in `package.json`.
 
 ## Deployment
 
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Deployed to [docs.cryptomator.org](https://docs.cryptomator.org) via GitHub Pages from the `main` branch.
