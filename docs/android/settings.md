@@ -4,6 +4,8 @@ title: Settings
 sidebar_position: 5
 ---
 
+import Image from '@site/src/components/Image';
+
 # Settings
 
 You can configure Cryptomator to your needs.
@@ -13,15 +15,15 @@ This section provides an overview of the different settings.
 
 After pressing the three dots ① and clicking on `Settings`, you will find options to customize Cryptomator.
 
-<img src="/img/android/launch-settings.png" alt="How to launch settings with Android" width="346" />
+<Image src="/img/android/launch-settings.png" alt="How to launch settings with Android" width="810" height="1665" />
 
-<img src="/img/android/settings.png" alt="How to launch settings with Android" width="346" />
+<Image src="/img/android/settings.png" alt="How to launch settings with Android" width="1080" height="2220" />
 
 ### Cloud Services {#cloud-services}
 
 This setting lists all Cloud Services. When pressing on a service, the authentication starts or if you're already authenticated, you will be logged out.
 
-<img src="/img/android/setting-cloud-services.png" alt="How to handle cloud services with Android" width="346" />
+<Image src="/img/android/setting-cloud-services.png" alt="How to handle cloud services with Android" width="1080" height="2220" />
 
 ### Fingerprint {#fingerprint}
 
@@ -32,15 +34,15 @@ This setting is only available if your device supports the fingerprint authentic
 With the toggle button in the right upper corner ①, the fingerprint will be generally enabled/disabled.
 Using the toggle button next to the vault, it will be enabled/disabled for this vault ②.
 
-<img src="/img/android/setting-fingerprint-0-setup.png" alt="How to use fingerprint with Android" width="346" />
+<Image src="/img/android/setting-fingerprint-0-setup.png" alt="How to use fingerprint with Android" width="810" height="1665" />
 
-<img src="/img/android/setting-fingerprint-1-enter-pw.png" alt="How to use fingerprint with Android" width="346" />
+<Image src="/img/android/setting-fingerprint-1-enter-pw.png" alt="How to use fingerprint with Android" width="1080" height="2220" />
 
 After enabling, you have to unlock the vault using the password.
 
-<img src="/img/android/setting-fingerprint-2-authenticate.png" alt="How to use fingerprint with Android" width="346" />
+<Image src="/img/android/setting-fingerprint-2-authenticate.png" alt="How to use fingerprint with Android" width="1080" height="2160" />
 
-<img src="/img/android/setting-fingerprint-3-finish.png" alt="How to use fingerprint with Android" width="346" />
+<Image src="/img/android/setting-fingerprint-3-finish.png" alt="How to use fingerprint with Android" width="1080" height="2160" />
 
 To have access to the key stored in the keystore, you have to authenticate against the system using the fingerprint.
 
@@ -67,7 +69,7 @@ You can disable this for most apps (but not for system apps like the keyboard bu
 
 If you see this dialog, some app is able to draw over Cryptomator: 
 
-<img src="/img/android/setting-app-obscured.png" alt="How to enable obscured app with Android" width="346" />
+<Image src="/img/android/setting-app-obscured.png" alt="How to enable obscured app with Android" width="303" height="500" />
 
 ### Screen Security {#screen-security}
 
@@ -87,9 +89,9 @@ You can choose between the following three styles:
 * Light: App shows in light mode
 * Dark: App shows in dark mode
 
-<img src="/img/android/settings.png" alt="How to change style with Android" width="346" />
+<Image src="/img/android/settings.png" alt="How to change style with Android" width="1080" height="2220" />
 
-<img src="/img/android/setting-style-dark.png" alt="How to change style with Android" width="346" />
+<Image src="/img/android/setting-style-dark.png" alt="How to change style with Android" width="1080" height="2220" />
 
 ## Search {#search}
 
@@ -106,7 +108,7 @@ both are described in the following chapters.
 If this setting is enabled, the search mode is `live`.
 That means, the search starts immediately after entering the search pattern.
 
-<img src="/img/android/search.gif" alt="How to use live search with Android" width="346" />
+<Image src="/img/android/search.gif" alt="How to use live search with Android" width="500" height="1028" />
 
 If it is disabled, you have to use the magnifier or the enter button in your keyboard to start the search.
 
@@ -114,7 +116,7 @@ If it is disabled, you have to use the magnifier or the enter button in your key
 
 If this setting is enabled, you have to enter a glob pattern into the search bar.
 
-<img src="/img/android/search-glob-pattern.gif" alt="How to use live search with Android" width="346" />
+<Image src="/img/android/search-glob-pattern.gif" alt="How to use live search with Android" width="540" height="1110" />
 
 If it is disabled, the beginning of the cloud node names must match the entered text. Upper and lower case is not relevant in this option.
  

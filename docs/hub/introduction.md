@@ -4,7 +4,9 @@ title: Cryptomator Hub
 sidebar_position: 1
 ---
 
-<img src="/img/hub/hub-intro.png" alt="Cryptomator Hub connects team members" width="384" />
+import Image from '@site/src/components/Image';
+
+<Image src="/img/hub/hub-intro.png" alt="Cryptomator Hub connects team members" width="384" height="316" />
 
 # Cryptomator Hub
 

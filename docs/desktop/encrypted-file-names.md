@@ -4,6 +4,8 @@ title: Encrypted File Names
 sidebar_position: 7
 ---
 
+import Image from '@site/src/components/Image';
+
 # Encrypted File Names
 
 :::info
@@ -54,13 +56,13 @@ You can access this feature from the unlocked view of a vault in the Cryptomator
 On the bottom of the unlocked view, drop files on the `Decrypt File Name` zone or click on it.
 A modal window with the encrypted-decrypted-mapping opens.
 
-<img src="/img/desktop/vault-detail-unlocked.png" alt="Vault detail view in the unlocked state" width="495" />
+<Image src="/img/desktop/vault-detail-unlocked.png" alt="Vault detail view in the unlocked state" width="495" height="381" />
 
 The encrypted-decrypted-table has an action bar at the top with two buttons:
 * Clipboard button to copy the whole table as a CSV into the system clipboard
 * Trash button to clear the table
 
-<img src="/img/desktop/decrypt-file-names.png" alt="Decrypt file names window" width="311" />
+<Image src="/img/desktop/decrypt-file-names.png" alt="Decrypt file names window" width="311" height="385" />
 
 Encrypted file names and their corresponding decrypted, original name are shown inside a two column table, with the encrypted names on the right.
 If you have not dropped any files, the table is empty.

@@ -4,6 +4,8 @@ title: User & Group Management
 sidebar_position: 3
 ---
 
+import Image from '@site/src/components/Image';
+
 # User & Group Management
 
 Users and groups are managed in [Keycloak](https://www.keycloak.org/), a powerful, open source identity and access management solution.
@@ -11,7 +13,7 @@ In the default configuration Cryptomator Hub provides its own Keycloak instance,
 
 You can access the Keycloak management interface over the admin section of Hub.
 
-<img src="/img/hub/access-keycloak-link.png" alt="Accessing Keycloak via Hub" width="920" />
+<Image src="/img/hub/access-keycloak-link.png" alt="Accessing Keycloak via Hub" width="1440" height="653" />
 
 There you can perform all users or groups related tasks, such as
 [creating new users](https://www.keycloak.org/docs/latest/server_admin/index.html#proc-creating-user_server_administration_guide),

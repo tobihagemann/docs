@@ -4,6 +4,8 @@ title: Vault Management
 sidebar_position: 5
 ---
 
+import Image from '@site/src/components/Image';
+
 # Vault Management
 
 The central entities in Cryptomator Hub are vaults.
@@ -18,7 +20,7 @@ Here, all vaults which are shared with you, are listed.
 After signing in, Hub redirects you to this list.
 Alternatively, you can also access the list by clicking on the `Vaults` tab in the navigation bar.
 
-<img src="/img/hub/vaultlist.png" alt="List vaults" width="920" />
+<Image src="/img/hub/vaultlist.png" alt="List vaults" width="2560" height="1080" />
 
 :::note
 * As a user, you will only see the vaults that you have access to.
@@ -35,13 +37,13 @@ To create a vault in Hub, navigate to the vault list and click on the `Create Va
 Every vault has a name and optionally a description.
 Fill out the form and continue the process by clicking the `Next` button in the right corner.
 
-<img src="/img/hub/create-vault.png" alt="Create a vault" width="920" />
+<Image src="/img/hub/create-vault.png" alt="Create a vault" width="2560" height="836" />
 
 In the next step, the vault *recovery key* is displayed.
 It can [restore access to the vault data](vault-recovery.md) in case of an emergency, e.g. if Cryptomator Hub is down.
 Store it at a safe location, tick the checkbox and complete the setup by clicking the `Create Vault` button at the bottom
 
-<img src="/img/hub/create-vault-recoverykey.png" alt="Save vault recoverykey" width="920" />
+<Image src="/img/hub/create-vault-recoverykey.png" alt="Save vault recoverykey" width="2560" height="1352" />
 
 :::warning
 The recovery key is **highly confidential**.
@@ -52,7 +54,7 @@ When the setup is finished, you have the opportunity to download the initial vau
 You can unlock the vault and place data inside with [Cryptomator](https://cryptomator.org/downloads/).
 If you skip this step, you can download the template [later](#download-vault-template).
 
-<img src="/img/hub/create-vault-download.png" alt="Download vault template" width="920" />
+<Image src="/img/hub/create-vault-download.png" alt="Download vault template" width="2560" height="884" />
 
 ## Vault Details {#vault-details}
 
@@ -62,11 +64,11 @@ The details are displayed on the right side.
 
 With the user role, you have access to the following details:
 
-<img src="/img/hub/vault-details-user.png" alt="Display vault details as user" width="920" />
+<Image src="/img/hub/vault-details-user.png" alt="Display vault details as user" width="2560" height="1520" />
 
 With the owner role, you have access to the following sections:
 
-<img src="/img/hub/vault-details-owner.png" alt="Display vault details as vault owner" width="920" />
+<Image src="/img/hub/vault-details-owner.png" alt="Display vault details as vault owner" width="2880" height="1720" />
 
 ### Manage Vault {#manage-vault}
 
@@ -85,7 +87,7 @@ Open the [vault details](#vault-details) page to manage a vault.
 If a user should have access to this vault, you need to share it with the user.
 Click in the search field of the `Shared with` section, select it from the results list and click the `Add` button.
 
-<img src="/img/hub/vault-details-search.png" alt="Add a user or group in the vault details" width="920" />
+<Image src="/img/hub/vault-details-search.png" alt="Add a user or group in the vault details" width="2880" height="1720" />
 
 ### Change Ownership {#change-ownership}
 
@@ -98,7 +100,7 @@ Only then, the user can unlock the vault with its device.
 
 As a vault owner, you can see that an update is necessary when the `Update Permissions` button is clickable.
 
-<img src="/img/hub/update-permission.png" alt="Update permissions in the vault details" width="920" />
+<Image src="/img/hub/update-permission.png" alt="Update permissions in the vault details" width="2880" height="1720" />
 
 ### Edit Vault Metadata {#edit-vault-metadata}
 
@@ -133,19 +135,19 @@ The WoT state of a user is displayed in the vault details page. The state can be
 
 To verify `alice`, click on the red shield icon and select `Check Identity…`
 
-<img src="/img/hub/wot-carol-unverified.png" alt="Carol is unverified regarding its Web of Trust state" width="920" />
+<Image src="/img/hub/wot-carol-unverified.png" alt="Carol is unverified regarding its Web of Trust state" width="2880" height="1720" />
 
 While verifiying a user, you need to enter the first characters of the user's public key fingerprint. This fingerprint is displayed in user coresponding user profile page.
 
-<img src="/img/hub/wot-carol-verify.png" alt="Verify Alice regarding its Web of Trust state" width="920" />
+<Image src="/img/hub/wot-carol-verify.png" alt="Verify Alice regarding its Web of Trust state" width="2880" height="1720" />
 
 `alice` is now verified
 
-<img src="/img/hub/wot-carol-verified.png" alt="Alice is verified regarding its Web of Trust state" width="920" />
+<Image src="/img/hub/wot-carol-verified.png" alt="Alice is verified regarding its Web of Trust state" width="2880" height="1720" />
 
 The verification process is logged in the audit log with event type `Signed Identity`
 
-<img src="/img/hub/wot-audit-log.png" alt="Audit log" width="920" />
+<Image src="/img/hub/wot-audit-log.png" alt="Audit log" width="2880" height="1720" />
 
 `signature still valid` means that the `identity` has still the same key. If the user account gets reset after verification, this message changes to `was valid; signed key changed by now` and the user needs to get verified again.
 

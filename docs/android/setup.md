@@ -4,6 +4,8 @@ title: Setup
 sidebar_position: 1
 ---
 
+import Image from '@site/src/components/Image';
+
 # Setup
 
 You can get Cryptomator for Android on:
@@ -80,7 +82,7 @@ You can download the *Cryptomator F-Droid repository variant* of Cryptomator fro
 repository to the F-Droid app by opening this link on the device or by scanning the following QR-Code:
 [Cryptomator F-Droid repository](https://static.cryptomator.org/android/fdroid/repo?fingerprint=F7C3EC3B0D588D3CB52983E9EB1A7421C93D4339A286398E71D7B651E8D8ECDD)
 
-<img src="/img/android/fdroid-qr-code.svg" alt="F-Droid QR Code" width="128" />
+<Image src="/img/android/fdroid-qr-code.svg" alt="F-Droid QR Code" width="128" height="128" />
 :::
 
 As with the *APK Store variant,* since this app variant is not purchased via the *Google Play Store,* you need to buy a license key from the [APK Store](https://cryptomator.org/android/) on our website. After Cryptomator is installed, you have to enter this key. This can be done by copying and pasting the license into the field when asked for it or by clicking on the link starting with `cryptomator://license/YOUR_LICENSE_KEY`.

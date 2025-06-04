@@ -4,6 +4,8 @@ title: Events and Event View
 sidebar_position: 9
 ---
 
+import Image from '@site/src/components/Image';
+
 # Events and Event View
 
 Vault events give information about the vault's status and certain activities.
@@ -21,7 +23,7 @@ The event view shows the events of all vaults.
 To open the event view, click on the Bell icon in the lower left corner of the main window.
 If new, unread events are present, the icon has a small red dot.
 
-<img src="/img/desktop/event-view.png" alt="Event view" width="236" />
+<Image src="/img/desktop/event-view.png" alt="Event view" width="236" height="369" />
 
 The event view has an action bar at the top followed by the actual event list.
 Events are displayed from newest (top) to oldest (bottom).
