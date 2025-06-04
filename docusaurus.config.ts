@@ -57,7 +57,9 @@ const config: Config = {
       tagName: 'script',
       attributes: {
         src: 'https://umami.skymatic.de/script.js',
-        'data-website-id': '2df416f9-7a9c-4e58-9a45-7106f7e0a139',
+        'data-website-id': process.env.NODE_ENV === 'development' 
+          ? 'cdd42f46-583d-4463-9ab2-8adcfe989c21' // Local development
+          : '2df416f9-7a9c-4e58-9a45-7106f7e0a139', // Production
         integrity: 'sha384-kbIYaQlPE+duTh4aldOzluMjki9u/A/GSd+W7YzI7MOTW+hxRpQaijHfeMPiM1RX',
         crossorigin: 'anonymous',
         defer: 'defer',
