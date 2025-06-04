@@ -48,6 +48,10 @@ const config: Config = {
     ],
   ],
 
+  clientModules: [
+    require.resolve('./src/clientModules/utmRemover.ts'),
+  ],
+
   plugins: [
     [
       '@docusaurus/plugin-client-redirects',
