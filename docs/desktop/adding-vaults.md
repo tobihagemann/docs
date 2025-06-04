@@ -4,6 +4,8 @@ title: Adding Vaults
 sidebar_position: 3
 ---
 
+import Image from '@site/src/components/Image';
+
 # Adding Vaults
 
 You will be presented with two options when adding a vault:
@@ -11,7 +13,7 @@ You will be presented with two options when adding a vault:
 1. [`Create New Vault…`](#create-a-new-vault) - Choose this if you wish to create a new vault.
 2. [`Open Existing Vault…`](#open-an-existing-vault) - Choose this if you already have a vault and wish to open it.
 
-![Create a new or open an existing vault](/img/desktop/create-or-open-vault.png)
+<Image src="/img/desktop/create-or-open-vault.png" alt="Create a new or open an existing vault" width="762" height="610" />
 
 ## Create a New Vault {#create-a-new-vault}
 
@@ -21,7 +23,7 @@ If you chose to create a new vault, the wizard will guide you through a simple 6
 
 Start by choosing a name for your vault.
 
-![Choosing "My first Vault" as a vault name](/img/desktop/add-vault-1.png)
+<Image src="/img/desktop/add-vault-1.png" alt="Choosing &quot;My first Vault&quot; as a vault name" width="718" height="590" />
 
 ### 2. Choose a Storage Location {#choose-a-storage-location}
 
@@ -38,7 +40,7 @@ The screenshot below shows multiple cloud storage locations, because we have mul
 You might not see the same options, depending on which cloud services are installed on your PC, but you can always choose `Custom Location` and navigate to your cloud-synced directory manually.
 :::
 
-![Choosing Dropbox as a storage location for my vault](/img/desktop/add-vault-2.png)
+<Image src="/img/desktop/add-vault-2.png" alt="Choosing Dropbox as a storage location for my vault" width="718" height="590" />
 
 ### 3. Expert Settings {#expert-settings}
 
@@ -61,7 +63,7 @@ One of the primary expert settings allows you to configure the maximum length of
 
 Refer to [Name Shortening](/docs/security/vault.md#name-shortening) for additional details. 
 
-![Expert settings](/img/desktop/add-vault-3.png)
+<Image src="/img/desktop/add-vault-3.png" alt="Expert settings" width="718" height="590" />
 
 :::warning
 Adjusting the maximum length of encrypted file names may affect compatibility with certain filesystems. Ensure you thoroughly test these settings before enabling them for critical data.
@@ -79,7 +81,7 @@ This is especially important if you plan to share a vault with someone.
 Additionally, we recommend sharing passwords only over a secure channel, like PGP encypted emails, or end-to-end encrypted chat apps.
 :::
 
-![Choose a strong password for your Cryptomator vault](/img/desktop/add-vault-4.png)
+<Image src="/img/desktop/add-vault-4.png" alt="Choose a strong password for your Cryptomator vault" width="718" height="590" />
 
 :::warning
 Nobody except you knows this password, and we also cannot "reset" it for you. 
@@ -96,7 +98,7 @@ A recovery key allows you to reset your password if you ever forget it.
 If you chose to create a recovery key in the previous step, it will now be displayed.
 Make sure not to lose it and ideally make a hard copy of it.
 
-![Showing the recovery key](/img/desktop/add-vault-5.png)
+<Image src="/img/desktop/add-vault-5.png" alt="Showing the recovery key" width="718" height="590" />
 
 :::warning
 Remember, a recovery key is just like your password, its purpose is to gain access to your vault!
@@ -112,7 +114,7 @@ You have successfully created a new vault.
 
 You can now unlock this vault using your password and start adding files into it.
 
-![Showing the recovery key](/img/desktop/add-vault-6.png)
+<Image src="/img/desktop/add-vault-6.png" alt="Showing the recovery key" width="718" height="590" />
 
 ## Open an Existing Vault {#open-an-existing-vault}
 

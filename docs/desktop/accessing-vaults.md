@@ -4,11 +4,13 @@ title: Accessing Vaults
 sidebar_position: 4
 ---
 
+import Image from '@site/src/components/Image';
+
 # Accessing Vaults
 
 You can only access decrypted files of a vault if you can unlock it. Unlocking a vault is just a two-step process as long as you know the password.
 
-![Cryptomator window showing a locked vault](/img/desktop/vault-detail-locked.png)
+<Image src="/img/desktop/vault-detail-locked.png" alt="Cryptomator window showing a locked vault" width="762" height="610" />
 
 ## Unlocking a Vault {#unlocking-a-vault}
 
@@ -19,7 +21,7 @@ You can only access decrypted files of a vault if you can unlock it. Unlocking a
 A confirmation will be displayed if your password is correct.
 You can either close the confirmation window by clicking `Done` or click on `Reveal Vault` to show your unlocked vault in your file manager.
 
-![Vault unlock dialog](/img/desktop/unlock-prompt.png)
+<Image src="/img/desktop/unlock-prompt.png" alt="Vault unlock dialog" width="512" height="285" />
 
 :::note
 You can store the password in your operating system's keychain by checking the "Save Password" checkbox. There are also plug-ins available for Cryptomator, that allow you to store Cryptomator's vault passwords in third party password managers:
@@ -35,7 +37,7 @@ Only store your password in the system's keychain on trusted devices.
 Anyone with access to the computer with stored passwords will be able to unlock your vault, and in some cases, even find your password.
 :::
 
-![Vault unlock success dialog](/img/desktop/unlock-success.png)
+<Image src="/img/desktop/unlock-success.png" alt="Vault unlock success dialog" width="512" height="314" />
 
 ## Manage Files and Folders in Your Vault {#manage-files-and-folders-in-your-vault}
 
@@ -49,7 +51,7 @@ Click on `Reveal Drive` in the Cryptomator window to open the mount location usi
 Even though your files are shown unencrypted in the virtual drive, they are not stored unencrypted on the hard drive but only in [volatile memory](https://en.wikipedia.org/wiki/Volatile_memory).
 :::
 
-![Cryptomator window showing an unlocked vault](/img/desktop/vault-detail-unlocked-simple.png)
+<Image src="/img/desktop/vault-detail-unlocked-simple.png" alt="Cryptomator window showing an unlocked vault" width="762" height="610" />
 
 :::note
 On Windows, you can choose the drive letter of the virtual drive for each vault using advanced vault options.

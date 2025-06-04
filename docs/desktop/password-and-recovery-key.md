@@ -4,6 +4,8 @@ title: Password and Recovery Key
 sidebar_position: 5
 ---
 
+import Image from '@site/src/components/Image';
+
 # Password and Recovery Key
 
 This section explains how to change a password for a vault, show its recovery key, and reset a password.
@@ -20,7 +22,7 @@ Keep it as safe as your password.
 All actions can be carried out using the `Password` tab under vault options.
 You can access it by selecting a vault, lock it if necessary, and click on `Vault Options`.
 
-![Vault options allowing you to enter a recovery key](/img/desktop/vault-options-password.png)
+<Image src="/img/desktop/vault-options-password.png" alt="Vault options allowing you to enter a recovery key" width="512" height="448" />
 
 ## Change Password {#change-password}
 
@@ -42,7 +44,7 @@ Finally, click on the `Change` button to change the password.
 The `Change` button is activated only if the new password fields match and the checkbox is selected.
 :::
 
-![After entering your current password, enter your new one and confirm it](/img/desktop/change-password-prompt.png)
+<Image src="/img/desktop/change-password-prompt.png" alt="After entering your current password, enter your new one and confirm it" width="512" height="528" />
 
 :::info
 The password is used to derive a [KEK](https://en.wikipedia.org/wiki/Glossary_of_cryptographic_keys), which is then used to encrypt further keys. The KEK changes, but the keys encrypted with the KEK will stay the same. The actual files will not get re-encrypted, meaning you can not upgrade a weak passphrase to a stronger one once the data has been synced to a service that allows recovery of older versions of the masterkey file.
@@ -68,7 +70,7 @@ To derive a recovery key:
 
 A new window will open displaying a sequence of words (i.e., the recovery key).
 
-![This shows your recoverykey](/img/desktop/recoverykey.png)
+<Image src="/img/desktop/recoverykey.png" alt="This shows your recoverykey" width="512" height="494" />
 
 You can copy it to your clipboard and store it in a secure password manager, or print it on paper.
 
@@ -85,11 +87,11 @@ Type or paste your recovery key in the new window.
 Cryptomator offers an auto completion feature to make things easier when typing a recovery key. It's helpful if your recovery key is printed on paper or stored it somewhere where you cannot copy it. The feature will kick in automatically once you start typing the first few letters of a word.
 :::
 
-![Autocompletion during recovery key entry](/img/desktop/recoverykey-recover-enter.png)
+<Image src="/img/desktop/recoverykey-recover-enter.png" alt="Autocompletion during recovery key entry" width="512" height="384" />
 
 If the recovery key is valid, a small message will be displayed below the entered recovery key and the `Next` button will be activated.
 
-![A valid recovery key has been entered](/img/desktop/recoverykey-recover-valid.png)
+<Image src="/img/desktop/recoverykey-recover-valid.png" alt="A valid recovery key has been entered" width="512" height="384" />
 
 :::info
 By design, *only* the correct recovery key is accepted. **A valid but incorrect key won't be accepted to prevent your old data from becoming inaccessible.**

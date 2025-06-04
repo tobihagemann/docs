@@ -4,6 +4,8 @@ title: Vault Management
 sidebar_position: 6
 ---
 
+import Image from '@site/src/components/Image';
+
 # Vault Management
 
 A *vault* is where your files are stored encrypted.
@@ -23,7 +25,7 @@ The vault is **not** deleted from your PC by removing it from the list. If you w
 
 You can change the order of the vaults in the list by dragging them.
 
-![How to reorder vaults](/img/desktop/move-vaults.gif)
+<Image src="/img/desktop/move-vaults.gif" alt="How to reorder vaults" width="678" height="526" />
 
 ## Vault Options {#vault-options}
 
@@ -36,7 +38,7 @@ The options are divided across three categories:
 
 You can select this option if the vault is unlocked as soon as Cryptomator starts.
 
-![General vault options](/img/desktop/vault-options-general.png)
+<Image src="/img/desktop/vault-options-general.png" alt="General vault options" width="512" height="448" />
 
 - `Vault Name` - The name of the vault. *You can edit this field to rename the vault.*
 - `Lock when idle for <n> minutes` - The vault will be locked automatically after the specified time of inactivity.
@@ -52,10 +54,10 @@ You can select this option if the vault is unlocked as soon as Cryptomator start
 The mount options depend on the selected [volume type](volume-type.md).
 :::
 
-![Vault options for mounting](/img/desktop/vault-options-mounting.png)
+<Image src="/img/desktop/vault-options-mounting.png" alt="Vault options for mounting" width="512" height="448" />
 
 3. Password - Here you can manage the vault's password and recovery key.
 
-![Vault options regarding the password](/img/desktop/vault-options-password.png)
+<Image src="/img/desktop/vault-options-password.png" alt="Vault options regarding the password" width="512" height="448" />
 
 Take a look at the [Volume Type](volume-type.md) and [Password And Recovery Key](password-and-recovery-key.md) sections to understand how vault mounting and passwords work.

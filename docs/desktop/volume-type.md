@@ -4,6 +4,8 @@ title: Volume Types
 sidebar_position: 8
 ---
 
+import Image from '@site/src/components/Image';
+
 # Volume Types
 
 Volume types play an important role when handling your files.
@@ -46,7 +48,7 @@ The availability of volume types depends on your operating system and installed 
 You might have to restart Cryptomator when changing volume types.
 A notification will be displayed if a restart is needed.
 
-![Virtual Drive Tab in Preferences](/img/desktop/preferences-virtual-drive.png)
+<Image src="/img/desktop/preferences-virtual-drive.png" alt="Virtual Drive Tab in Preferences" width="762" height="516" />
 
 ## Windows {#windows}
 

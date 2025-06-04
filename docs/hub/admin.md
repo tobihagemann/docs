@@ -4,6 +4,8 @@ title: Admin
 sidebar_position: 8
 ---
 
+import Image from '@site/src/components/Image';
+
 # Admin
 
 ## License {#license}
@@ -13,7 +15,7 @@ The license is bound to the instance and cannot be transferred to another instan
 Every license has a number of seats and a validity period.
 As an Hub administrator, you can view license information in the administration area.
 
-![Administration area](/img/hub/admin-area-license.png)
+<Image src="/img/hub/admin-area-license.png" alt="Administration area" width="1440" height="574" />
 
 ### What Is a Seat? {#what-is-a-seat}
 
@@ -92,18 +94,18 @@ The logs are displayed in a structured table containing the following columns:
 - **Event** – The type of event that occurred.
 - **Details** – Additional information about the event.
 
-![Audit Logs Table View](/img/hub/auditlogs-overview.png)
+<Image src="/img/hub/auditlogs-overview.png" alt="Audit Logs Table View" width="1238" height="858" />
 
 ### Filtering Audit Logs {#filtering-audit-logs}
 
 To refine the displayed logs, a filtering function is available:
 
-![Audit Log Filtering Options](/img/hub/auditlogs-filter.png)
+<Image src="/img/hub/auditlogs-filter.png" alt="Audit Log Filtering Options" width="406" height="360" />
 
 - **Date Range Filter**: Allows filtering logs between two specific dates.
 - **Event Type Filter**: A multi-select dropdown enables filtering by event type.
 
-![Audit Log Filtering Options](/img/hub/auditlogs-filter-events.png)
+<Image src="/img/hub/auditlogs-filter-events.png" alt="Audit Log Filtering Options" width="406" height="553" />
 
 ## Web of Trust {#web-of-trust}
 
@@ -112,7 +114,7 @@ First, the trusting user needs to verify the trustee by entering the first chara
 
 WoT also supports transitive trust, meaning if Alice trusts Bob, and Bob trusts Charlie, then Alice implicitly trusts Charlie. This forms a trust chain, allowing users to establish indirect trust relationships.
 
-![Web of Trust Administration](/img/hub/wot-admin.png)
+<Image src="/img/hub/wot-admin.png" alt="Web of Trust Administration" width="1440" height="658" />
 
 **In the administration area, administrators can configure the following trust settings:**
 
