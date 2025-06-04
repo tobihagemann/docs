@@ -52,6 +52,19 @@ const config: Config = {
     require.resolve('./src/clientModules/utmRemover.ts'),
   ],
 
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {
+        src: 'https://umami.skymatic.de/script.js',
+        'data-website-id': '2df416f9-7a9c-4e58-9a45-7106f7e0a139',
+        integrity: 'sha384-kbIYaQlPE+duTh4aldOzluMjki9u/A/GSd+W7YzI7MOTW+hxRpQaijHfeMPiM1RX',
+        crossorigin: 'anonymous',
+        defer: 'defer',
+      },
+    },
+  ],
+
   plugins: [
     [
       '@docusaurus/plugin-client-redirects',
