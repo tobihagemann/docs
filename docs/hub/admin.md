@@ -4,8 +4,6 @@ title: Admin
 sidebar_position: 8
 ---
 
-import Image from '@site/src/components/Image';
-
 # Admin
 
 ## License {#license}

@@ -4,8 +4,6 @@ title: Vault Cryptography
 sidebar_position: 4
 ---
 
-import Image from '@site/src/components/Image';
-
 # Vault Cryptography
 
 ## File Header Encryption {#file-header-encryption}
@@ -26,7 +24,7 @@ cleartextPayload := 0xFFFFFFFFFFFFFFFF . contentKey
 ciphertextPayload, tag := aesGcm(cleartextPayload, encryptionMasterKey, headerNonce)
 ```
 
-<Image src="/img/security/file-header-encryption.png" srcset="/img/security/file-header-encryption.png 1x, /img/security/file-header-encryption@2x.png 2x" alt="File Header Encryption" width="866" height="398" />
+<Image src="/img/security/file-header-encryption.png" srcset="/img/security/file-header-encryption.png 1x, /img/security/file-header-encryption@2x.png 2x" alt="File Header Encryption" width="433" height="199" />
 
 *Random per file change
 
@@ -56,7 +54,7 @@ for (int i = 0; i < length(cleartextChunks); i++) {
 ciphertextFileContent := join(ciphertextChunks[])
 ```
 
-<Image src="/img/security/file-content-encryption.png" srcset="/img/security/file-content-encryption.png 1x, /img/security/file-content-encryption@2x.png 2x" alt="File Content Encryption" width="1564" height="390" />
+<Image src="/img/security/file-content-encryption.png" srcset="/img/security/file-content-encryption.png 1x, /img/security/file-content-encryption@2x.png 2x" alt="File Content Encryption" width="782" height="195" />
 
 *Random per chunk change
 
@@ -96,7 +94,7 @@ Cryptomator uses [AES-SIV](https://tools.ietf.org/html/rfc5297) to encrypt names
 The directory ID of the parent folder is passed as associated data.
 This prevents undetected movement of files between directories.
 
-<Image src="/img/security/filename-encryption.png" srcset="/img/security/filename-encryption.png 1x, /img/security/filename-encryption@2x.png 2x" alt="Filename Encryption" width="1228" height="440" />
+<Image src="/img/security/filename-encryption.png" srcset="/img/security/filename-encryption.png 1x, /img/security/filename-encryption@2x.png 2x" alt="Filename Encryption" width="614" height="220" />
 
 *Unencrypted directory ID of the parent dir [as described above](#directory-ids)
 

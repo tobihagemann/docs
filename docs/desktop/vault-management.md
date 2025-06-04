@@ -4,8 +4,6 @@ title: Vault Management
 sidebar_position: 6
 ---
 
-import Image from '@site/src/components/Image';
-
 # Vault Management
 
 A *vault* is where your files are stored encrypted.

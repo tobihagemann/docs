@@ -4,8 +4,6 @@ title: Password and Recovery Key
 sidebar_position: 5
 ---
 
-import Image from '@site/src/components/Image';
-
 # Password and Recovery Key
 
 This section explains how to change a password for a vault, show its recovery key, and reset a password.

@@ -4,8 +4,6 @@ title: Your Account
 sidebar_position: 4
 ---
 
-import Image from '@site/src/components/Image';
-
 # Your Account
 
 To open vaults secured by a Cryptomator Hub instance, you need an account on the regarding Hub instance.

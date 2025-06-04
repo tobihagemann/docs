@@ -4,8 +4,6 @@ title: User & Group Management
 sidebar_position: 3
 ---
 
-import Image from '@site/src/components/Image';
-
 # User & Group Management
 
 Users and groups are managed in [Keycloak](https://www.keycloak.org/), a powerful, open source identity and access management solution.

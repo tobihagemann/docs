@@ -4,8 +4,6 @@ title: Working with Vaults
 sidebar_position: 4
 ---
 
-import Image from '@site/src/components/Image';
-
 # Working with Vaults
 
 Cryptomator for iOS is fully integrated into the Files app of iOS. In order to access your encrypted data, you have to use the Files app.
@@ -20,6 +18,7 @@ In order for Cryptomator to be listed in the Files app under "Locations", you ma
 4. Enable **Cryptomator**.
 5. Tap on **Done** in the upper right corner.
 
-<Image src="/img/ios/enable-cryptomator-in-files-app-01.png" alt="How to enable Cryptomator in Files app" width="1080" height="2340" />
-
-<Image src="/img/ios/enable-cryptomator-in-files-app-02.png" alt="How to enable Cryptomator in Files app" width="1080" height="2340" />
+<Grid columns={3} columnsSmall={2} columnsLarge={4}>
+  <Image src="/img/ios/enable-cryptomator-in-files-app-01.png" alt="How to enable Cryptomator in Files app" width="1080" height="2340" />
+  <Image src="/img/ios/enable-cryptomator-in-files-app-02.png" alt="How to enable Cryptomator in Files app" width="1080" height="2340" />
+</Grid>

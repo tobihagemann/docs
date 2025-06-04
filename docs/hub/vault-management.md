@@ -4,8 +4,6 @@ title: Vault Management
 sidebar_position: 5
 ---
 
-import Image from '@site/src/components/Image';
-
 # Vault Management
 
 The central entities in Cryptomator Hub are vaults.

@@ -4,8 +4,6 @@ title: Accessing Vaults
 sidebar_position: 4
 ---
 
-import Image from '@site/src/components/Image';
-
 # Accessing Vaults
 
 You can only access decrypted files of a vault if you can unlock it. Unlocking a vault is just a two-step process as long as you know the password.

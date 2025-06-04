@@ -4,8 +4,6 @@ title: Events and Event View
 sidebar_position: 9
 ---
 
-import Image from '@site/src/components/Image';
-
 # Events and Event View
 
 Vault events give information about the vault's status and certain activities.

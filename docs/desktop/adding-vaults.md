@@ -4,8 +4,6 @@ title: Adding Vaults
 sidebar_position: 3
 ---
 
-import Image from '@site/src/components/Image';
-
 # Adding Vaults
 
 You will be presented with two options when adding a vault:

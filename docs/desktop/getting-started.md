@@ -4,8 +4,6 @@ title: Getting Started
 sidebar_position: 2
 ---
 
-import Image from '@site/src/components/Image';
-
 # Getting Started
 
 You will be greeted with the following screen when you start Cryptomator for the first time. 

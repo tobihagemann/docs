@@ -4,8 +4,6 @@ title: Error Handling
 sidebar_position: 10
 ---
 
-import Image from '@site/src/components/Image';
-
 # Error Handling
 
 If you encounter an unexpected error, Cryptomator gives you the option to look up a solution in our error database. It's possible that the error has already been reported and a solution has been suggested for you to follow.

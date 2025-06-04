@@ -1,4 +1,6 @@
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import React from 'react';
+import { GridContext } from './GridContext';
 
 interface ImageProps {
   src: string;
@@ -11,7 +13,8 @@ interface ImageProps {
 
 export default function Image({ src, srcset, alt, width, height, className }: ImageProps) {
   const imageSrc = useBaseUrl(src);
-    const processedSrcset = srcset
+  const isInsideGrid = React.useContext(GridContext);
+  const processedSrcset = srcset
     ? srcset
         .split(',')
         .map(item => {
@@ -20,19 +23,21 @@ export default function Image({ src, srcset, alt, width, height, className }: Im
         })
         .join(', ')
     : undefined;
-  return (
-    <p>
-      <img
-        src={imageSrc}
-        srcSet={processedSrcset}
-        alt={alt}
-        width={width}
-        height={height}
-        className={className}
-        decoding="async"
-        loading="lazy"
-        style={{height: 'auto'}}
-      />
-    </p>
+  const imageElement = (
+    <img
+      src={imageSrc}
+      srcSet={processedSrcset}
+      alt={alt}
+      width={width}
+      height={height}
+      className={className}
+      decoding="async"
+      loading="lazy"
+      style={{height: 'auto'}}
+    />
   );
+  if (isInsideGrid) {
+    return imageElement;
+  }
+  return <p>{imageElement}</p>;
 }

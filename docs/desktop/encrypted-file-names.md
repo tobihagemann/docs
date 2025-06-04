@@ -4,8 +4,6 @@ title: Encrypted File Names
 sidebar_position: 7
 ---
 
-import Image from '@site/src/components/Image';
-
 # Encrypted File Names
 
 :::info

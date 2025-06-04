@@ -4,8 +4,6 @@ title: Setup
 sidebar_position: 1
 ---
 
-import Image from '@site/src/components/Image';
-
 # Setup
 
 You can get Cryptomator for Android on:

@@ -4,8 +4,6 @@ title: Vault Recovery
 sidebar_position: 7
 ---
 
-import Image from '@site/src/components/Image';
-
 # Vault Recovery
 
 This section contains instructions for recovering Cryptomator Hub vaults using the vault recovery key.
@@ -29,17 +27,17 @@ Requirements:
 
 In Cryptomator Hub navigate to the vault list, click `Add` and `Recover Existing`
 
-<Image src="/img/hub/vault-onlinerecovery-step1.png" alt="Vault list add drop down" width="2560" height="1244" />
+<Image src="/img/hub/vault-onlinerecovery-step1.png" alt="Vault list add drop down" width="1280" height="622" />
 
 Enter the recovery key for the vault you want to restore. If you enter a recovery key from a different vault, the recovery will not work.
 
 Proceed with `Restore Vault`.
 
-<Image src="/img/hub/vault-onlinerecovery-step2.png" alt="Vault enter recovery key" width="2560" height="1144" />
+<Image src="/img/hub/vault-onlinerecovery-step2.png" alt="Vault enter recovery key" width="1280" height="572" />
 
 Enter a new vault name, description and vault admin password. The new vault admin password is required to grant or revoke access to the vault.
 
-<Image src="/img/hub/vault-onlinerecovery-step3.png" alt="Creating a vault using recovery key" width="2560" height="776" />
+<Image src="/img/hub/vault-onlinerecovery-step3.png" alt="Creating a vault using recovery key" width="1280" height="388" />
 
 If successful, a new vault has been created. Proceed as follows:
 

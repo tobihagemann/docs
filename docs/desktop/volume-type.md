@@ -4,8 +4,6 @@ title: Volume Types
 sidebar_position: 8
 ---
 
-import Image from '@site/src/components/Image';
-
 # Volume Types
 
 Volume types play an important role when handling your files.
