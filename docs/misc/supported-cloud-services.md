@@ -41,7 +41,7 @@ The following Cloud Services are natively supported by Cryptomator for Android a
 | Spaces provided by other apps [^5] | ✅ | ✅ |
 | WebDAV [^6] | ✅ | ✅ |
 
-[^1]: **We recommend using the** [**Google Play Store variant**](/docs/android/setup.md#google-play-store) **of Cryptomator for Android users** for the best experience. Please see [here](/docs/android/setup.md#variant-differences) for more information about the different Cryptomator for Android variants and the reasoning behind those.
+[^1]: **We recommend using the** [**Google Play Store variant**](/docs/android/setup.md#google-play-store) **of Cryptomator for Android users** for the best experience. Please see [here](/docs/android/setup.md#differences-between-variants-and-how-to-choose) for more information about the different Cryptomator for Android variants and the reasoning behind those.
 
 [^2]: Not supported by the [Main F-Droid repo variant](/docs/android/setup.md#main-f-droid-repository) because this Cloud Service requires an API key.
 

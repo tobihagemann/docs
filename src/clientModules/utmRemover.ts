@@ -1,4 +1,8 @@
 (function removeUTMParams() {
+  if (typeof window === 'undefined') {
+    return;
+  }
+  
   const url = new URL(window.location.href);
   const params = url.searchParams;
   const utmParams = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'];
