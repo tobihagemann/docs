@@ -142,7 +142,7 @@ To export a specific file or folder in Cryptomator, you select the `V` next to t
   <Image src="/img/android/export-file-1-select-export.png" alt="How export a file or folder with Android" width="810" height="1665" />
 </Grid>
 
-Chose the target location where the file or folder should be exported to.
+Choose the target location where the file or folder should be exported to.
 
 <Grid columns={3} columnsSmall={2} columnsLarge={4}>
   <Image src="/img/android/export-file-2-choose-location.png" alt="How to export a file or folder with Android" width="1080" height="2220" />
@@ -217,8 +217,8 @@ Using the `X` ② you can clear the pattern and after pressing it again, the fil
 
 In the settings there are two options that influence the behavior of the search:
 
-* Live search (disbaled by default)
-* Search using glob pattern matching (disbaled by default)
+* Live search (disabled by default)
+* Search using glob pattern matching (disabled by default)
 
 For more information, see the Settings chapter.
 
